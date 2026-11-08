@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and backups
+instance/*.db
+*.sqlite
+*.sqlite3
+database_backups/
+.module8_repro/
+
+# Generated batch outputs are reproducible; keep only lightweight tracked samples
+# Uncomment the next line if the full generated batches should not be committed:
+# generated_data/module8_*/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

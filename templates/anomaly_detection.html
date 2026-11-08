@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Module 7 - Anomaly Detection</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 30px;
+            font-family: Arial, sans-serif;
+            background: #f4f6fb;
+            color: #263247;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: #68758a;
+        }
+
+        .back-button {
+            background: #263b80;
+            color: white;
+            text-decoration: none;
+            padding: 11px 18px;
+            border-radius: 7px;
+        }
+
+        .summary {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .summary-card {
+            background: white;
+            padding: 22px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+        }
+
+        .summary-card h3 {
+            color: #68758a;
+            font-size: 14px;
+            margin-top: 0;
+        }
+
+        .summary-card p {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+
+        .high-number {
+            color: #dc3545;
+        }
+
+        .medium-number {
+            color: #e69a19;
+        }
+
+        .table-container {
+            background: white;
+            padding: 22px;
+            border-radius: 12px;
+            overflow-x: auto;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 15px;
+            border-bottom: 1px solid #e9edf3;
+        }
+
+        th {
+            background: #f5f7fb;
+            color: #263b80;
+        }
+
+        .severity {
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .high {
+            background: #ffe2e2;
+            color: #c62828;
+        }
+
+        .medium {
+            background: #fff0d5;
+            color: #a76600;
+        }
+
+        .success {
+            background: white;
+            padding: 35px;
+            text-align: center;
+            border-radius: 12px;
+            color: #18864b;
+        }
+
+        @media(max-width: 700px) {
+            body {
+                padding: 15px;
+            }
+
+            .summary {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}"></head>
+
+<body><aside class="yf-sidebar"><div class="yf-brand"><div class="yf-logo">Y</div><div><strong>YottaFlex</strong><small>Supply operations</small></div></div><div class="yf-nav-label">Workspace</div><nav class="yf-nav">
+<a href="/" data-path="/"><span>▦</span>Overview</a><a href="/suppliers" data-path="/suppliers"><span>♙</span>Suppliers</a><a href="/purchase-orders" data-path="/purchase-orders"><span>▤</span>Purchase orders</a><a href="/acknowledgements" data-path="/acknowledgements"><span>✓</span>Acknowledgements</a><a href="/change-requests" data-path="/change-requests"><span>⇄</span>Change requests</a><a href="/inventory-planning" data-path="/inventory-planning"><span>▥</span>Inventory planning</a><a href="/anomaly-detection" data-path="/anomaly-detection"><span>⌁</span>Anomaly detection</a><a href="/data-generator" data-path="/data-generator"><span>⚙</span>Data generator</a><a href="/notifications" data-path="/notifications"><span>♧</span>Notifications</a><a href="/audit-history" data-path="/audit-history"><span>≡</span>Audit history</a></nav><div class="yf-sidebar-foot"><b>YottaFlex Operations</b>Supplier acknowledgement &amp; planning platform</div></aside><main class="yf-main"><div class="yf-topbar"><div><div class="yf-eyebrow">Supplier management platform</div><div class="yf-page-title">Operations workspace</div><div class="yf-subtitle">A single view of supplier commitments and supply execution</div></div><div class="yf-top-right"><span class="yf-live">System workspace</span><div class="yf-avatar">Y</div></div></div>
+
+<div class="container">
+
+    <div class="header">
+        <div>
+            <h1>Module 7: Data Validation & Anomaly Detection</h1>
+            <p class="subtitle">
+                Identify incorrect records and inconsistencies in supplier workflows.
+            </p>
+        </div>
+
+        <a href="/" class="back-button">Back to Dashboard</a>
+    </div>
+
+    <!-- SUMMARY CARDS -->
+
+    <div class="summary">
+
+        <div class="summary-card">
+            <h3>Total Anomalies</h3>
+            <p>{{ total_anomalies }}</p>
+        </div>
+
+        <div class="summary-card">
+            <h3>High Severity</h3>
+            <p class="high-number">{{ high_count }}</p>
+        </div>
+
+        <div class="summary-card">
+            <h3>Medium Severity</h3>
+            <p class="medium-number">{{ medium_count }}</p>
+        </div>
+
+    </div>
+
+    <!-- ANOMALY TABLE -->
+
+    <div class="table-container">
+
+        <h2>Detected Data Issues</h2>
+
+        {% if anomalies %}
+
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Issue Type</th>
+                    <th>Affected Record</th>
+                    <th>Description</th>
+                    <th>Severity</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                {% for anomaly in anomalies %}
+
+                <tr>
+                    <td>{{ loop.index }}</td>
+
+                    <td>{{ anomaly.type }}</td>
+
+                    <td>{{ anomaly.record }}</td>
+
+                    <td>{{ anomaly.description }}</td>
+
+                    <td>
+                        <span class="severity {{ anomaly.severity|lower }}">
+                            {{ anomaly.severity }}
+                        </span>
+                    </td>
+                </tr>
+
+                {% endfor %}
+
+            </tbody>
+        </table>
+
+        {% else %}
+
+        <div class="success">
+            <h2>No Anomalies Found!</h2>
+            <p>No issues were found in the records and inventory plans checked.</p>
+        </div>
+
+        {% endif %}
+
+    </div>
+
+</div>
+
+</main><script>document.querySelectorAll(".yf-nav a").forEach(a=>{if(a.dataset.path===location.pathname)a.classList.add("active")});</script></body>
+</html>

@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Purchase Order Management</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}"></head>
+<body><aside class="yf-sidebar"><div class="yf-brand"><div class="yf-logo">Y</div><div><strong>YottaFlex</strong><small>Supply operations</small></div></div><div class="yf-nav-label">Workspace</div><nav class="yf-nav">
+<a href="/" data-path="/"><span>▦</span>Overview</a><a href="/suppliers" data-path="/suppliers"><span>♙</span>Suppliers</a><a href="/purchase-orders" data-path="/purchase-orders"><span>▤</span>Purchase orders</a><a href="/acknowledgements" data-path="/acknowledgements"><span>✓</span>Acknowledgements</a><a href="/change-requests" data-path="/change-requests"><span>⇄</span>Change requests</a><a href="/inventory-planning" data-path="/inventory-planning"><span>▥</span>Inventory planning</a><a href="/anomaly-detection" data-path="/anomaly-detection"><span>⌁</span>Anomaly detection</a><a href="/data-generator" data-path="/data-generator"><span>⚙</span>Data generator</a><a href="/notifications" data-path="/notifications"><span>♧</span>Notifications</a><a href="/audit-history" data-path="/audit-history"><span>≡</span>Audit history</a></nav><div class="yf-sidebar-foot"><b>YottaFlex Operations</b>Supplier acknowledgement &amp; planning platform</div></aside><main class="yf-main"><div class="yf-topbar"><div><div class="yf-eyebrow">Supplier management platform</div><div class="yf-page-title">Operations workspace</div><div class="yf-subtitle">A single view of supplier commitments and supply execution</div></div><div class="yf-top-right"><span class="yf-live">System workspace</span><div class="yf-avatar">Y</div></div></div>
+
+    <h1>Purchase Order Management</h1>
+
+    <a href="/">Back to Dashboard</a> |
+    <a href="/suppliers">Manage Suppliers</a>
+
+    {% with messages = get_flashed_messages() %}
+        {% for message in messages %}
+            <p>{{ message }}</p>
+        {% endfor %}
+    {% endwith %}
+
+    <h2>Create New Purchase Order</h2>
+
+    <form method="POST">
+
+        <label>Select Supplier:</label>
+        <select name="supplier_id" required>
+            <option value="">Choose Supplier</option>
+            {% for supplier in suppliers %}
+                <option value="{{ supplier.id }}">
+                    {{ supplier.supplier_code }} - {{ supplier.supplier_name }}
+                </option>
+            {% endfor %}
+        </select>
+
+        <br><br>
+
+        <label>Order Date:</label>
+        <input type="date" name="order_date" required>
+
+        <br><br>
+
+        <label>Item Code:</label>
+        <input type="text" name="item_code" required>
+
+        <br><br>
+
+        <label>Description:</label>
+        <input type="text" name="description" required>
+
+        <br><br>
+
+        <label>Requested Quantity:</label>
+        <input type="number" name="quantity" min="1" required>
+
+        <br><br>
+
+        <label>Unit Price:</label>
+        <input type="number" name="price" min="0" step="0.01" required>
+
+        <br><br>
+
+        <label>Requested Delivery Date:</label>
+        <input type="date" name="delivery_date" required>
+
+        <br><br>
+
+        <button type="submit">Create Purchase Order</button>
+
+    </form>
+
+    <h2>Purchase Order List</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>PO Number</th>
+            <th>Supplier</th>
+            <th>Item Code</th>
+            <th>Description</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Delivery Date</th>
+            <th>Status</th>
+        </tr>
+
+        {% for order in orders %}
+            {% for line in order.lines %}
+            <tr>
+                <td>{{ order.po_number }}</td>
+                <td>{{ order.supplier.supplier_name }}</td>
+                <td>{{ line.item_code }}</td>
+                <td>{{ line.description }}</td>
+                <td>{{ line.requested_quantity }}</td>
+                <td>{{ "%.2f"|format(line.unit_price) }}</td>
+                <td>{{ line.requested_delivery_date }}</td>
+                <td>{{ order.status }}</td>
+            </tr>
+            {% endfor %}
+        {% endfor %}
+
+    </table>
+
+</main><script>document.querySelectorAll(".yf-nav a").forEach(a=>{if(a.dataset.path===location.pathname)a.classList.add("active")});</script></body>
+</html>

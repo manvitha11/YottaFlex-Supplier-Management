@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notifications</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 30px;
+            background: #f4f6f9;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background: #263b59;
+            color: white;
+        }
+        button {
+            padding: 7px 12px;
+            cursor: pointer;
+        }
+    </style>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}"></head>
+<body><aside class="yf-sidebar"><div class="yf-brand"><div class="yf-logo">Y</div><div><strong>YottaFlex</strong><small>Supply operations</small></div></div><div class="yf-nav-label">Workspace</div><nav class="yf-nav">
+<a href="/" data-path="/"><span>▦</span>Overview</a><a href="/suppliers" data-path="/suppliers"><span>♙</span>Suppliers</a><a href="/purchase-orders" data-path="/purchase-orders"><span>▤</span>Purchase orders</a><a href="/acknowledgements" data-path="/acknowledgements"><span>✓</span>Acknowledgements</a><a href="/change-requests" data-path="/change-requests"><span>⇄</span>Change requests</a><a href="/inventory-planning" data-path="/inventory-planning"><span>▥</span>Inventory planning</a><a href="/anomaly-detection" data-path="/anomaly-detection"><span>⌁</span>Anomaly detection</a><a href="/data-generator" data-path="/data-generator"><span>⚙</span>Data generator</a><a href="/notifications" data-path="/notifications"><span>♧</span>Notifications</a><a href="/audit-history" data-path="/audit-history"><span>≡</span>Audit history</a></nav><div class="yf-sidebar-foot"><b>YottaFlex Operations</b>Supplier acknowledgement &amp; planning platform</div></aside><main class="yf-main"><div class="yf-topbar"><div><div class="yf-eyebrow">Supplier management platform</div><div class="yf-page-title">Operations workspace</div><div class="yf-subtitle">A single view of supplier commitments and supply execution</div></div><div class="yf-top-right"><span class="yf-live">System workspace</span><div class="yf-avatar">Y</div></div></div>
+
+<h1>Notifications</h1>
+
+<a href="/">Dashboard</a> |
+<a href="/audit-history">Audit History</a>
+
+<table>
+    <tr>
+        <th>Notification ID</th>
+        <th>Type</th>
+        <th>Message</th>
+        <th>Status</th>
+        <th>Date</th>
+        <th>Action</th>
+    </tr>
+
+    {% for notification in notifications %}
+    <tr>
+        <td>{{ notification.notification_number }}</td>
+        <td>{{ notification.notification_type }}</td>
+        <td>{{ notification.message }}</td>
+        <td>{{ notification.status }}</td>
+        <td>{{ notification.created_date }}</td>
+        <td>
+            {% if notification.status == "Unread" %}
+            <form method="POST"
+                  action="{{ url_for('mark_notification_read',
+                  notification_id=notification.id) }}">
+                <button type="submit">Mark as Read</button>
+            </form>
+            {% else %}
+                Read
+            {% endif %}
+        </td>
+    </tr>
+    {% else %}
+    <tr>
+        <td colspan="6">No notifications available.</td>
+    </tr>
+    {% endfor %}
+</table>
+
+</main><script>document.querySelectorAll(".yf-nav a").forEach(a=>{if(a.dataset.path===location.pathname)a.classList.add("active")});</script></body>
+</html>

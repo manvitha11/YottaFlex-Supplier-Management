@@ -1,0 +1,11 @@
+Metric,Count
+Suppliers,5
+Purchase Orders,100
+Po Lines,100
+Acknowledgements,8
+Change Requests,7
+Approvals,4
+Inventory Plans,100
+Combined Events,15
+Ground Truth Labels,4
+Po Lines Without Acknowledgement,93

@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inventory Planning</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 25px;
+            background: #f5f7fa;
+        }
+
+        h1, h2 {
+            color: #183153;
+        }
+
+        .section {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        input, select, button {
+            padding: 9px;
+            margin: 7px;
+        }
+
+        button {
+            background: #183153;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 11px;
+            text-align: left;
+        }
+
+        th {
+            background: #dce7f5;
+        }
+
+        .warning {
+            color: #c0392b;
+            font-weight: bold;
+        }
+
+        .success {
+            color: #16803c;
+            font-weight: bold;
+        }
+    </style>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}"></head>
+
+<body><aside class="yf-sidebar"><div class="yf-brand"><div class="yf-logo">Y</div><div><strong>YottaFlex</strong><small>Supply operations</small></div></div><div class="yf-nav-label">Workspace</div><nav class="yf-nav">
+<a href="/" data-path="/"><span>▦</span>Overview</a><a href="/suppliers" data-path="/suppliers"><span>♙</span>Suppliers</a><a href="/purchase-orders" data-path="/purchase-orders"><span>▤</span>Purchase orders</a><a href="/acknowledgements" data-path="/acknowledgements"><span>✓</span>Acknowledgements</a><a href="/change-requests" data-path="/change-requests"><span>⇄</span>Change requests</a><a href="/inventory-planning" data-path="/inventory-planning"><span>▥</span>Inventory planning</a><a href="/anomaly-detection" data-path="/anomaly-detection"><span>⌁</span>Anomaly detection</a><a href="/data-generator" data-path="/data-generator"><span>⚙</span>Data generator</a><a href="/notifications" data-path="/notifications"><span>♧</span>Notifications</a><a href="/audit-history" data-path="/audit-history"><span>≡</span>Audit history</a></nav><div class="yf-sidebar-foot"><b>YottaFlex Operations</b>Supplier acknowledgement &amp; planning platform</div></aside><main class="yf-main"><div class="yf-topbar"><div><div class="yf-eyebrow">Supplier management platform</div><div class="yf-page-title">Operations workspace</div><div class="yf-subtitle">A single view of supplier commitments and supply execution</div></div><div class="yf-top-right"><span class="yf-live">System workspace</span><div class="yf-avatar">Y</div></div></div>
+
+<h1>Inventory Planning and Production Management</h1>
+
+<p>
+    <a href="/">Back to Dashboard</a> |
+    <a href="/purchase-orders">Purchase Orders</a>
+</p>
+
+{% with messages = get_flashed_messages() %}
+    {% for message in messages %}
+        <p><strong>{{ message }}</strong></p>
+    {% endfor %}
+{% endwith %}
+
+<div class="section">
+    <h2>Refresh Projected Inventory</h2>
+
+    <p>
+        Confirmed supply comes from the latest valid supplier acknowledgement.
+    </p>
+
+    <form method="POST" action="/inventory-planning/refresh">
+        <button type="submit">Refresh Inventory</button>
+    </form>
+</div>
+
+<div class="section">
+    <h2>Inventory Plan</h2>
+
+    <table>
+        <tr>
+            <th>PO Line ID</th>
+            <th>Item Code</th>
+            <th>Projected Quantity</th>
+            <th>Expected Delivery</th>
+            <th>Supply Status</th>
+            <th>Last Updated</th>
+        </tr>
+
+        {% for plan in plans %}
+        <tr>
+            <td>{{ plan.po_line_id }}</td>
+            <td>{{ plan.po_line.item_code }}</td>
+            <td>{{ plan.projected_quantity }}</td>
+            <td>{{ plan.expected_delivery_date or "Not Available" }}</td>
+            <td>
+                {% if plan.supply_status == "Confirmed" %}
+                    <span class="success">{{ plan.supply_status }}</span>
+                {% elif plan.supply_status == "Needs Review" %}
+                    <span class="warning">{{ plan.supply_status }}</span>
+                {% else %}
+                    {{ plan.supply_status or "Awaiting Acknowledgement" }}
+                {% endif %}
+            </td>
+            <td>{{ plan.last_updated }}</td>
+        </tr>
+        {% else %}
+        <tr>
+            <td colspan="6">No inventory plans available. Click Refresh Inventory.</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+<div class="section">
+    <h2>Create Production Order</h2>
+
+    <form method="POST" action="/production-orders">
+
+        <label>Purchase Order Line:</label>
+
+        <select name="po_line_id" required>
+            <option value="">Select PO Line</option>
+
+            {% for line in lines %}
+            <option value="{{ line.id }}">
+                {{ line.item_code }}
+                - {{ line.purchase_order.po_number }}
+            </option>
+            {% endfor %}
+        </select>
+
+        {% if not lines %}
+        <p>No purchase order lines are available. Create a purchase order first.</p>
+        {% endif %}
+
+        <br>
+
+        <label>Required Quantity:</label>
+        <input type="number" name="required_quantity" min="1" required>
+
+        <br>
+
+        <label>Required Date:</label>
+        <input type="date" name="required_date" required>
+
+        <br>
+
+        <button type="submit" {% if not lines %}disabled{% endif %}>Create Production Order</button>
+
+    </form>
+</div>
+
+<div class="section">
+    <h2>Production Orders</h2>
+
+    <table>
+        <tr>
+            <th>Production Number</th>
+            <th>Item Code</th>
+            <th>Required Quantity</th>
+            <th>Required Date</th>
+            <th>Status</th>
+        </tr>
+
+        {% for production in production_orders %}
+        <tr>
+            <td>{{ production.production_number }}</td>
+            <td>{{ production.po_line.item_code }}</td>
+            <td>{{ production.required_quantity }}</td>
+            <td>{{ production.required_date }}</td>
+            <td>{{ production.status }}</td>
+        </tr>
+        {% else %}
+        <tr>
+            <td colspan="5">No production orders created yet.</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+<div class="section">
+    <h2>Production Impact Analysis</h2>
+
+    <table>
+        <tr>
+            <th>Production Number</th>
+            <th>Item Code</th>
+            <th>Confirmed Supply</th>
+            <th>Allocated Supply</th>
+            <th>Required Quantity</th>
+            <th>Shortage</th>
+            <th>Expected Delivery</th>
+            <th>Required Date</th>
+            <th>Delivery Timing</th>
+        </tr>
+
+        {% for result in results %}
+        <tr>
+            <td>{{ result.production.production_number }}</td>
+            <td>{{ result.production.po_line.item_code }}</td>
+            <td>{{ result.projected_quantity }}</td>
+            <td>{{ result.allocated_quantity }}</td>
+            <td>{{ result.production.required_quantity }}</td>
+            <td>
+                {% if result.shortage > 0 %}
+                    <span class="warning">Supply Shortage: {{ result.shortage }}</span>
+                {% else %}
+                    <span class="success">No Supply Shortage</span>
+                {% endif %}
+            </td>
+            <td>{{ result.expected_delivery_date or "Not Available" }}</td>
+            <td>{{ result.production.required_date }}</td>
+            <td>
+                {% if result.delivery_timing == "Unknown" %}
+                    <span>{{ result.delivery_timing }}</span>
+                {% elif result.delivery_timing == "On Time" %}
+                    <span class="success">{{ result.delivery_timing }}</span>
+                {% else %}
+                    <span class="warning">{{ result.delivery_timing }}</span>
+                {% endif %}
+            </td>
+        </tr>
+        {% else %}
+        <tr>
+            <td colspan="9">Create a production order to see its impact.</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+</main><script>document.querySelectorAll(".yf-nav a").forEach(a=>{if(a.dataset.path===location.pathname)a.classList.add("active")});</script></body>
+</html>

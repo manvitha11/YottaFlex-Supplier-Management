@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Requests and Approvals</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}"></head>
+<body><aside class="yf-sidebar"><div class="yf-brand"><div class="yf-logo">Y</div><div><strong>YottaFlex</strong><small>Supply operations</small></div></div><div class="yf-nav-label">Workspace</div><nav class="yf-nav">
+<a href="/" data-path="/"><span>▦</span>Overview</a><a href="/suppliers" data-path="/suppliers"><span>♙</span>Suppliers</a><a href="/purchase-orders" data-path="/purchase-orders"><span>▤</span>Purchase orders</a><a href="/acknowledgements" data-path="/acknowledgements"><span>✓</span>Acknowledgements</a><a href="/change-requests" data-path="/change-requests"><span>⇄</span>Change requests</a><a href="/inventory-planning" data-path="/inventory-planning"><span>▥</span>Inventory planning</a><a href="/anomaly-detection" data-path="/anomaly-detection"><span>⌁</span>Anomaly detection</a><a href="/data-generator" data-path="/data-generator"><span>⚙</span>Data generator</a><a href="/notifications" data-path="/notifications"><span>♧</span>Notifications</a><a href="/audit-history" data-path="/audit-history"><span>≡</span>Audit history</a></nav><div class="yf-sidebar-foot"><b>YottaFlex Operations</b>Supplier acknowledgement &amp; planning platform</div></aside><main class="yf-main"><div class="yf-topbar"><div><div class="yf-eyebrow">Supplier management platform</div><div class="yf-page-title">Operations workspace</div><div class="yf-subtitle">A single view of supplier commitments and supply execution</div></div><div class="yf-top-right"><span class="yf-live">System workspace</span><div class="yf-avatar">Y</div></div></div>
+
+    <h1>Change Requests and Approvals</h1>
+
+    <p>
+        <a href="/">Dashboard</a> |
+        <a href="/suppliers">Suppliers</a> |
+        <a href="/purchase-orders">Purchase Orders</a> |
+        <a href="/acknowledgements">Acknowledgements</a>
+    </p>
+
+    {% with messages = get_flashed_messages() %}
+        {% for message in messages %}
+            <p><strong>{{ message }}</strong></p>
+        {% endfor %}
+    {% endwith %}
+
+    <hr>
+
+    <h2>Submit New Change Request</h2>
+
+    <form method="POST" action="{{ url_for('change_requests') }}">
+
+        <label>Purchase Order Line:</label>
+
+        <select name="po_line_id" required>
+            <option value="">Select PO Line</option>
+
+            {% for line in lines %}
+            <option value="{{ line.id }}">
+                {{ line.purchase_order.po_number }}
+                - {{ line.item_code }}
+                - {{ line.purchase_order.supplier.supplier_name }}
+                - Current Qty: {{ line.requested_quantity }}
+            </option>
+            {% endfor %}
+        </select>
+
+        <br><br>
+
+        <label>New Quantity:</label>
+        <input type="number" name="new_quantity" min="1">
+
+        <br><br>
+
+        <label>New Unit Price:</label>
+        <input type="number" name="new_price" min="0" step="0.01">
+
+        <br><br>
+
+        <label>New Delivery Date:</label>
+        <input type="date" name="new_delivery_date">
+
+        <br><br>
+
+        <label>Reason:</label>
+        <input type="text" name="reason" required>
+
+        <br><br>
+
+        <button type="submit">Submit Change Request</button>
+
+    </form>
+
+    <hr>
+
+    <h2>Change Request Records</h2>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Change ID</th>
+            <th>PO Number</th>
+            <th>Old Qty</th>
+            <th>New Qty</th>
+            <th>Old Price</th>
+            <th>New Price</th>
+            <th>Old Delivery Date</th>
+            <th>New Delivery Date</th>
+            <th>Reason</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+
+        {% for change in changes %}
+        <tr>
+            <td>{{ change.change_number }}</td>
+
+            <td>{{ change.purchase_order_line.purchase_order.po_number }}</td>
+
+            <td>{{ change.old_quantity }}</td>
+            <td>{{ change.new_quantity if change.new_quantity is not none else "-" }}</td>
+
+            <td>{{ change.old_price }}</td>
+            <td>{{ change.new_price if change.new_price is not none else "-" }}</td>
+
+            <td>{{ change.old_delivery_date }}</td>
+            <td>{{ change.new_delivery_date if change.new_delivery_date else "-" }}</td>
+
+            <td>{{ change.reason }}</td>
+            <td>{{ change.status }}</td>
+
+            <td>
+                {% if change.status == "Pending" %}
+
+                <form method="POST"
+                      action="{{ url_for('change_requests_decision', change_id=change.id) }}">
+
+                    <input type="text"
+                           name="reviewer"
+                           placeholder="Reviewer name"
+                           required>
+
+                    <br><br>
+
+                    <input type="text"
+                           name="comments"
+                           placeholder="Comments">
+
+                    <br><br>
+
+                    <button type="submit"
+                            name="decision"
+                            value="Approved">
+                        Approve
+                    </button>
+
+                    <button type="submit"
+                            name="decision"
+                            value="Rejected">
+                        Reject
+                    </button>
+
+                </form>
+
+                {% else %}
+                    Already processed
+                {% endif %}
+            </td>
+        </tr>
+        {% else %}
+        <tr>
+            <td colspan="11">No change requests available.</td>
+        </tr>
+        {% endfor %}
+
+    </table>
+
+    <hr>
+
+    <h2>Approval History</h2>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Change Request ID</th>
+            <th>Decision</th>
+            <th>Reviewer</th>
+            <th>Comments</th>
+            <th>Decision Date</th>
+        </tr>
+
+        {% for approval in approvals %}
+        <tr>
+            <td>{{ approval.change_request.change_number }}</td>
+            <td>{{ approval.decision }}</td>
+            <td>{{ approval.reviewer }}</td>
+            <td>{{ approval.comments }}</td>
+            <td>{{ approval.decision_date }}</td>
+        </tr>
+        {% else %}
+        <tr>
+            <td colspan="5">No approval decisions recorded yet.</td>
+        </tr>
+        {% endfor %}
+
+    </table>
+
+</main><script>document.querySelectorAll(".yf-nav a").forEach(a=>{if(a.dataset.path===location.pathname)a.classList.add("active")});</script></body>
+</html>

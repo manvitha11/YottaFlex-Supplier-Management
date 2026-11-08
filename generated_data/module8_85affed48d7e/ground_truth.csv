@@ -1,0 +1,5 @@
+Record Type,Record ID,Anomaly Type,Ground Truth Label,Reason
+InventoryPlan,3324462136517376841,Unapproved Change Incorrectly Updated Inventory Plan,1,The plan for PO line 7871974823538950215 contains quantity 410 from change request CHG-2026-442719 (Pending); it differs from the latest valid supplier acknowledgement.
+Acknowledgement,ACK-5348036591210813734-01,Acknowledgement Linked to Wrong Purchase Order,1,"The acknowledgement references PO 5357802813800471332, but PO line 5348036591210813734 belongs to PO 3234385288710212407."
+Acknowledgement,ACK-4936714315696733734-01,Promised Date Before Purchase Order Date,1,Promised date 2023-05-27 is earlier than PO PO-2026-553767's order date 2023-05-28.
+InventoryPlan,5783839499248102312,Older Acknowledgement Revision Overwrote Newer Revision,1,The plan for PO line 8655174134702006776 matches valid acknowledgement revision 1; revision 2 is newer.

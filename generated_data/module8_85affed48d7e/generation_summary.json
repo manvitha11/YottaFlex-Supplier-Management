@@ -1,0 +1,52 @@
+{
+  "batch_id": "85affed48d7e",
+  "event_count": 15000,
+  "generated_counts": {
+    "acknowledgements": 7500,
+    "approvals": 4999,
+    "change_requests": 7500,
+    "combined_events": 15000,
+    "ground_truth_labels": 4,
+    "inventory_plans": 10000,
+    "po_lines": 10000,
+    "po_lines_without_acknowledgement": 2501,
+    "purchase_orders": 10000,
+    "suppliers": 500
+  },
+  "generation_event": {
+    "batch_id": "85affed48d7e",
+    "description": "Synthetic Dataset Generated",
+    "event_type": "Dataset",
+    "generated_counts": {
+      "acknowledgements": 7500,
+      "approvals": 4999,
+      "change_requests": 7500,
+      "combined_events": 15000,
+      "ground_truth_labels": 4,
+      "inventory_plans": 10000,
+      "po_lines": 10000,
+      "po_lines_without_acknowledgement": 2501,
+      "purchase_orders": 10000,
+      "suppliers": 500
+    },
+    "seed": 20261022
+  },
+  "purchase_order_count": 10000,
+  "seed": 20261022,
+  "supplier_count": 500,
+  "validation": {
+    "checks": {
+      "acknowledgement_revisions_unique": true,
+      "dates_valid_except_labeled_scenario": true,
+      "foreign_keys_valid": true,
+      "ground_truth_scenarios_verified": true,
+      "inventory_projection_rules_checked": true,
+      "primary_keys_unique": true,
+      "quantities_reconcile": true,
+      "statuses_valid": true
+    },
+    "errors": [],
+    "passed": true,
+    "record_count": 50499
+  }
+}

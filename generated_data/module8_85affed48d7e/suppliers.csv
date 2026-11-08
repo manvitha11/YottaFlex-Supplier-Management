@@ -1,0 +1,501 @@
+Supplier ID,Supplier Code,Supplier Name,Email,Phone,Status
+9100757739457187,SUP-85AFFED4-0178,Sahana Precision Components Industries,sahana.gowda@sahana-precision-0178.example,+91-80-47374605,Active
+13453710355714339,SUP-85AFFED4-0246,Kiran Automation Products Industries,kiran.rao@kiran-automation-0246.example,+91-80-52400035,Active
+47978635712218876,SUP-85AFFED4-0385,Maya Advanced Materials Technologies,maya.patel@maya-advanced-0385.example,+91-80-84510194,Active
+63065505429513685,SUP-85AFFED4-0038,Sahana Industrial Systems Pvt Ltd,sahana.gowda@sahana-industrial-0038.example,+91-80-34526695,Active
+63438608179071252,SUP-85AFFED4-0039,Nikhil Industrial Systems Pvt Ltd,nikhil.bhat@nikhil-industrial-0039.example,+91-80-95551434,Active
+74158967447401693,SUP-85AFFED4-0342,Rekha Industrial Systems Technologies,rekha.iyer@rekha-industrial-0342.example,+91-80-53097675,Active
+77281624614064627,SUP-85AFFED4-0192,Devika Industrial Systems Industries,devika.joshi@devika-industrial-0192.example,+91-80-80901305,Active
+79934204991793154,SUP-85AFFED4-0322,Rekha Precision Components Technologies,rekha.iyer@rekha-precision-0322.example,+91-80-25461081,Active
+156045500465623448,SUP-85AFFED4-0169,Neha Precision Components Industries,neha.kapoor@neha-precision-0169.example,+91-80-28411203,Active
+157209747089112554,SUP-85AFFED4-0030,Arjun Industrial Systems Pvt Ltd,arjun.menon@arjun-industrial-0030.example,+91-80-66668101,Active
+173760396375418173,SUP-85AFFED4-0190,Arjun Industrial Systems Industries,arjun.menon@arjun-industrial-0190.example,+91-80-26762925,Active
+211424159302042606,SUP-85AFFED4-0119,Nikhil Manufacturing Group Pvt Ltd,nikhil.bhat@nikhil-manufacturing-0119.example,+91-80-73303123,Active
+218982347223263742,SUP-85AFFED4-0076,Divya Advanced Materials Pvt Ltd,divya.pillai@divya-advanced-0076.example,+91-80-99607531,Active
+224050339100768036,SUP-85AFFED4-0060,Aditi Engineering Works Pvt Ltd,aditi.kulkarni@aditi-engineering-0060.example,+91-80-59933804,Active
+229363543677904484,SUP-85AFFED4-0379,Nikhil Engineering Works Technologies,nikhil.bhat@nikhil-engineering-0379.example,+91-80-74969528,Active
+232301118696930707,SUP-85AFFED4-0386,Kiran Advanced Materials Technologies,kiran.rao@kiran-advanced-0386.example,+91-80-25555546,Active
+258618350539379617,SUP-85AFFED4-0338,Sahana Precision Components Technologies,sahana.gowda@sahana-precision-0338.example,+91-80-39793042,Active
+260122643053187535,SUP-85AFFED4-0046,Kiran Engineering Works Pvt Ltd,kiran.rao@kiran-engineering-0046.example,+91-80-78618395,Active
+288374456130800866,SUP-85AFFED4-0053,Sanjay Engineering Works Pvt Ltd,sanjay.kumar@sanjay-engineering-0053.example,+91-80-71805553,Active
+288678681934353198,SUP-85AFFED4-0186,Kiran Industrial Systems Industries,kiran.rao@kiran-industrial-0186.example,+91-80-72377282,Active
+303488422578736294,SUP-85AFFED4-0048,Vikram Engineering Works Pvt Ltd,vikram.mehta@vikram-engineering-0048.example,+91-80-31932421,Active
+330190027539751366,SUP-85AFFED4-0041,Akshu Engineering Works Pvt Ltd,akshu.sharma@akshu-engineering-0041.example,+91-80-88858543,Active
+365410436039706053,SUP-85AFFED4-0481,Akshu Precision Components Manufacturing,akshu.sharma@akshu-precision-0481.example,+91-80-68854888,Active
+408279777765114332,SUP-85AFFED4-0201,Akshu Engineering Works Industries,akshu.sharma@akshu-engineering-0201.example,+91-80-84141247,Active
+422482702125237295,SUP-85AFFED4-0401,Akshu Automation Products Technologies,akshu.sharma@akshu-automation-0401.example,+91-80-96535174,Active
+448067351437873450,SUP-85AFFED4-0044,Ravi Engineering Works Pvt Ltd,ravi.nair@ravi-engineering-0044.example,+91-80-32745294,Active
+477992419024137146,SUP-85AFFED4-0356,Divya Industrial Systems Technologies,divya.pillai@divya-industrial-0356.example,+91-80-28293408,Active
+520805496757396785,SUP-85AFFED4-0081,Akshu Automation Products Pvt Ltd,akshu.sharma@akshu-automation-0081.example,+91-80-51932324,Active
+525885266588725244,SUP-85AFFED4-0363,Srinu Engineering Works Technologies,srinu.reddy@srinu-engineering-0363.example,+91-80-75392519,Active
+558882224107913378,SUP-85AFFED4-0168,Vikram Precision Components Industries,vikram.mehta@vikram-precision-0168.example,+91-80-81796070,Active
+565463825894945760,SUP-85AFFED4-0234,Meera Advanced Materials Industries,meera.krishnan@meera-advanced-0234.example,+91-80-65317865,Active
+575478178915830971,SUP-85AFFED4-0288,Vikram Electrical Industries Industries,vikram.mehta@vikram-electrical-0288.example,+91-80-36121186,Active
+584986132551284466,SUP-85AFFED4-0278,Sahana Manufacturing Group Industries,sahana.gowda@sahana-manufacturing-0278.example,+91-80-84807710,Active
+587448564335439376,SUP-85AFFED4-0175,Aarav Precision Components Industries,aarav.singh@aarav-precision-0175.example,+91-80-74137764,Active
+629573974959359040,SUP-85AFFED4-0079,Nikhil Advanced Materials Pvt Ltd,nikhil.bhat@nikhil-advanced-0079.example,+91-80-84460539,Active
+644733863845944021,SUP-85AFFED4-0394,Meera Advanced Materials Technologies,meera.krishnan@meera-advanced-0394.example,+91-80-27256730,Active
+663666283135848383,SUP-85AFFED4-0264,Ravi Manufacturing Group Industries,ravi.nair@ravi-manufacturing-0264.example,+91-80-46925051,Active
+812445351655353969,SUP-85AFFED4-0289,Neha Electrical Industries Industries,neha.kapoor@neha-electrical-0289.example,+91-80-64702996,Active
+815849291244426836,SUP-85AFFED4-0135,Aarav Electrical Industries Pvt Ltd,aarav.singh@aarav-electrical-0135.example,+91-80-81732851,Active
+842585048930476504,SUP-85AFFED4-0085,Maya Automation Products Pvt Ltd,maya.patel@maya-automation-0085.example,+91-80-89330299,Active
+868093456376745642,SUP-85AFFED4-0340,Aditi Precision Components Technologies,aditi.kulkarni@aditi-precision-0340.example,+91-80-68671818,Active
+881038280515892493,SUP-85AFFED4-0476,Divya Supply Solutions Technologies,divya.pillai@divya-supply-0476.example,+91-80-39435840,Active
+891455926627278280,SUP-85AFFED4-0015,Aarav Precision Components Pvt Ltd,aarav.singh@aarav-precision-0015.example,+91-80-61410761,Active
+897171810925059010,SUP-85AFFED4-0177,Rahul Precision Components Industries,rahul.verma@rahul-precision-0177.example,+91-80-33209152,Active
+905264987484244320,SUP-85AFFED4-0427,Ananya Manufacturing Group Technologies,ananya.das@ananya-manufacturing-0427.example,+91-80-42538230,Active
+915138795390199539,SUP-85AFFED4-0482,Rekha Precision Components Manufacturing,rekha.iyer@rekha-precision-0482.example,+91-80-74666710,Active
+919944272680875888,SUP-85AFFED4-0452,Devika Electrical Industries Technologies,devika.joshi@devika-electrical-0452.example,+91-80-55919614,Active
+920563662431445156,SUP-85AFFED4-0268,Vikram Manufacturing Group Industries,vikram.mehta@vikram-manufacturing-0268.example,+91-80-98974776,Active
+968411467137468655,SUP-85AFFED4-0477,Rahul Supply Solutions Technologies,rahul.verma@rahul-supply-0477.example,+91-80-85406647,Active
+978862293399089275,SUP-85AFFED4-0026,Kiran Industrial Systems Pvt Ltd,kiran.rao@kiran-industrial-0026.example,+91-80-35423754,Active
+978969704263376747,SUP-85AFFED4-0185,Maya Industrial Systems Industries,maya.patel@maya-industrial-0185.example,+91-80-45145455,Active
+1000920585174597239,SUP-85AFFED4-0433,Sanjay Manufacturing Group Technologies,sanjay.kumar@sanjay-manufacturing-0433.example,+91-80-32346343,Active
+1004498334135530743,SUP-85AFFED4-0361,Akshu Engineering Works Technologies,akshu.sharma@akshu-engineering-0361.example,+91-80-51043988,Active
+1029510069299462965,SUP-85AFFED4-0113,Sanjay Manufacturing Group Pvt Ltd,sanjay.kumar@sanjay-manufacturing-0113.example,+91-80-90856956,Active
+1082194409058838669,SUP-85AFFED4-0159,Nikhil Supply Solutions Pvt Ltd,nikhil.bhat@nikhil-supply-0159.example,+91-80-27572841,Active
+1093747806251714653,SUP-85AFFED4-0125,Maya Electrical Industries Pvt Ltd,maya.patel@maya-electrical-0125.example,+91-80-40262103,Active
+1094236035607502999,SUP-85AFFED4-0270,Arjun Manufacturing Group Industries,arjun.menon@arjun-manufacturing-0270.example,+91-80-70720197,Active
+1099544317817933483,SUP-85AFFED4-0205,Maya Engineering Works Industries,maya.patel@maya-engineering-0205.example,+91-80-63516694,Active
+1127010477240305474,SUP-85AFFED4-0137,Rahul Electrical Industries Pvt Ltd,rahul.verma@rahul-electrical-0137.example,+91-80-55832945,Active
+1127758132176989730,SUP-85AFFED4-0069,Neha Advanced Materials Pvt Ltd,neha.kapoor@neha-advanced-0069.example,+91-80-85297898,Active
+1137344890091374252,SUP-85AFFED4-0122,Rekha Electrical Industries Pvt Ltd,rekha.iyer@rekha-electrical-0122.example,+91-80-67682580,Active
+1141974568306656940,SUP-85AFFED4-0290,Arjun Electrical Industries Industries,arjun.menon@arjun-electrical-0290.example,+91-80-94693218,Active
+1159747943826012555,SUP-85AFFED4-0016,Divya Precision Components Pvt Ltd,divya.pillai@divya-precision-0016.example,+91-80-34307471,Active
+1191347395061676896,SUP-85AFFED4-0100,Aditi Automation Products Pvt Ltd,aditi.kulkarni@aditi-automation-0100.example,+91-80-87764135,Active
+1197654334076791121,SUP-85AFFED4-0479,Nikhil Supply Solutions Technologies,nikhil.bhat@nikhil-supply-0479.example,+91-80-63449258,Active
+1252932991313212097,SUP-85AFFED4-0223,Srinu Advanced Materials Industries,srinu.reddy@srinu-advanced-0223.example,+91-80-32237947,Active
+1276485376611416478,SUP-85AFFED4-0305,Maya Supply Solutions Industries,maya.patel@maya-supply-0305.example,+91-80-28185571,Active
+1345266359712114687,SUP-85AFFED4-0117,Rahul Manufacturing Group Pvt Ltd,rahul.verma@rahul-manufacturing-0117.example,+91-80-62358986,Active
+1363931569089783496,SUP-85AFFED4-0230,Arjun Advanced Materials Industries,arjun.menon@arjun-advanced-0230.example,+91-80-94188542,Active
+1384013145150703936,SUP-85AFFED4-0495,Aarav Precision Components Manufacturing,aarav.singh@aarav-precision-0495.example,+91-80-20070322,Active
+1422673293860460159,SUP-85AFFED4-0099,Nikhil Automation Products Pvt Ltd,nikhil.bhat@nikhil-automation-0099.example,+91-80-26018850,Active
+1463177978500285792,SUP-85AFFED4-0128,Vikram Electrical Industries Pvt Ltd,vikram.mehta@vikram-electrical-0128.example,+91-80-82523011,Active
+1539372310088110088,SUP-85AFFED4-0404,Ravi Automation Products Technologies,ravi.nair@ravi-automation-0404.example,+91-80-55316146,Active
+1587740061543477960,SUP-85AFFED4-0130,Arjun Electrical Industries Pvt Ltd,arjun.menon@arjun-electrical-0130.example,+91-80-59179477,Active
+1615365994345207646,SUP-85AFFED4-0367,Ananya Engineering Works Technologies,ananya.das@ananya-engineering-0367.example,+91-80-27070303,Active
+1622110949648952832,SUP-85AFFED4-0129,Neha Electrical Industries Pvt Ltd,neha.kapoor@neha-electrical-0129.example,+91-80-89148752,Active
+1665982813058903867,SUP-85AFFED4-0353,Sanjay Industrial Systems Technologies,sanjay.kumar@sanjay-industrial-0353.example,+91-80-49468832,Active
+1675015188293046421,SUP-85AFFED4-0206,Kiran Engineering Works Industries,kiran.rao@kiran-engineering-0206.example,+91-80-28266160,Active
+1710025251618243712,SUP-85AFFED4-0193,Sanjay Industrial Systems Industries,sanjay.kumar@sanjay-industrial-0193.example,+91-80-89356000,Active
+1739378574698034024,SUP-85AFFED4-0082,Rekha Automation Products Pvt Ltd,rekha.iyer@rekha-automation-0082.example,+91-80-23826811,Active
+1754279620635647169,SUP-85AFFED4-0429,Neha Manufacturing Group Technologies,neha.kapoor@neha-manufacturing-0429.example,+91-80-31724151,Active
+1806815659900180410,SUP-85AFFED4-0357,Rahul Industrial Systems Technologies,rahul.verma@rahul-industrial-0357.example,+91-80-65043208,Active
+1811393004715708942,SUP-85AFFED4-0012,Devika Precision Components Pvt Ltd,devika.joshi@devika-precision-0012.example,+91-80-27931059,Active
+1842799531503884841,SUP-85AFFED4-0478,Sahana Supply Solutions Technologies,sahana.gowda@sahana-supply-0478.example,+91-80-32416211,Active
+1852804259165679331,SUP-85AFFED4-0285,Maya Electrical Industries Industries,maya.patel@maya-electrical-0285.example,+91-80-22251520,Active
+1874517646229638430,SUP-85AFFED4-0028,Vikram Industrial Systems Pvt Ltd,vikram.mehta@vikram-industrial-0028.example,+91-80-38915544,Active
+1878245989320795326,SUP-85AFFED4-0068,Vikram Advanced Materials Pvt Ltd,vikram.mehta@vikram-advanced-0068.example,+91-80-96393428,Active
+1878409655904407492,SUP-85AFFED4-0265,Maya Manufacturing Group Industries,maya.patel@maya-manufacturing-0265.example,+91-80-24222901,Active
+1883978552132954407,SUP-85AFFED4-0018,Sahana Precision Components Pvt Ltd,sahana.gowda@sahana-precision-0018.example,+91-80-40171435,Active
+1889826481520848152,SUP-85AFFED4-0390,Arjun Advanced Materials Technologies,arjun.menon@arjun-advanced-0390.example,+91-80-29207689,Active
+1895868748077157184,SUP-85AFFED4-0050,Arjun Engineering Works Pvt Ltd,arjun.menon@arjun-engineering-0050.example,+91-80-81319240,Active
+1951749767538491980,SUP-85AFFED4-0166,Kiran Precision Components Industries,kiran.rao@kiran-precision-0166.example,+91-80-70924340,Active
+1951896113680776210,SUP-85AFFED4-0239,Nikhil Advanced Materials Industries,nikhil.bhat@nikhil-advanced-0239.example,+91-80-97881223,Active
+1954307653400418038,SUP-85AFFED4-0412,Devika Automation Products Technologies,devika.joshi@devika-automation-0412.example,+91-80-70526689,Active
+1985760844361095745,SUP-85AFFED4-0191,Priya Industrial Systems Industries,priya.shah@priya-industrial-0191.example,+91-80-32959543,Active
+2017458436602952018,SUP-85AFFED4-0147,Ananya Supply Solutions Pvt Ltd,ananya.das@ananya-supply-0147.example,+91-80-84593452,Active
+2027949185379224511,SUP-85AFFED4-0244,Ravi Automation Products Industries,ravi.nair@ravi-automation-0244.example,+91-80-92836368,Active
+2033587132168356358,SUP-85AFFED4-0347,Ananya Industrial Systems Technologies,ananya.das@ananya-industrial-0347.example,+91-80-57257128,Active
+2045635432696495257,SUP-85AFFED4-0447,Ananya Electrical Industries Technologies,ananya.das@ananya-electrical-0447.example,+91-80-45010174,Active
+2051940674154029623,SUP-85AFFED4-0449,Neha Electrical Industries Technologies,neha.kapoor@neha-electrical-0449.example,+91-80-21311484,Active
+2056835536837930974,SUP-85AFFED4-0375,Aarav Engineering Works Technologies,aarav.singh@aarav-engineering-0375.example,+91-80-50510650,Active
+2067922654903798420,SUP-85AFFED4-0255,Aarav Automation Products Industries,aarav.singh@aarav-automation-0255.example,+91-80-77425470,Active
+2100109111892413572,SUP-85AFFED4-0383,Srinu Advanced Materials Technologies,srinu.reddy@srinu-advanced-0383.example,+91-80-70768888,Active
+2122460729518313038,SUP-85AFFED4-0453,Sanjay Electrical Industries Technologies,sanjay.kumar@sanjay-electrical-0453.example,+91-80-38541652,Active
+2136584999087362293,SUP-85AFFED4-0106,Kiran Manufacturing Group Pvt Ltd,kiran.rao@kiran-manufacturing-0106.example,+91-80-22684661,Active
+2200207328093820754,SUP-85AFFED4-0326,Kiran Precision Components Technologies,kiran.rao@kiran-precision-0326.example,+91-80-42960387,Active
+2206793580770229926,SUP-85AFFED4-0139,Nikhil Electrical Industries Pvt Ltd,nikhil.bhat@nikhil-electrical-0139.example,+91-80-88616018,Active
+2208960950569353064,SUP-85AFFED4-0351,Priya Industrial Systems Technologies,priya.shah@priya-industrial-0351.example,+91-80-89004689,Active
+2244447131634678028,SUP-85AFFED4-0413,Sanjay Automation Products Technologies,sanjay.kumar@sanjay-automation-0413.example,+91-80-62752791,Active
+2306462443403464590,SUP-85AFFED4-0031,Priya Industrial Systems Pvt Ltd,priya.shah@priya-industrial-0031.example,+91-80-83749766,Active
+2306613036459378982,SUP-85AFFED4-0286,Kiran Electrical Industries Industries,kiran.rao@kiran-electrical-0286.example,+91-80-59122935,Active
+2362247008305282400,SUP-85AFFED4-0493,Sanjay Precision Components Manufacturing,sanjay.kumar@sanjay-precision-0493.example,+91-80-76673145,Active
+2366620930395499389,SUP-85AFFED4-0141,Akshu Supply Solutions Pvt Ltd,akshu.sharma@akshu-supply-0141.example,+91-80-36542689,Active
+2375880390046875250,SUP-85AFFED4-0398,Sahana Advanced Materials Technologies,sahana.gowda@sahana-advanced-0398.example,+91-80-61654650,Active
+2387408898968644753,SUP-85AFFED4-0269,Neha Manufacturing Group Industries,neha.kapoor@neha-manufacturing-0269.example,+91-80-66387855,Active
+2402893409759361278,SUP-85AFFED4-0237,Rahul Advanced Materials Industries,rahul.verma@rahul-advanced-0237.example,+91-80-89705379,Active
+2405578818247163274,SUP-85AFFED4-0387,Ananya Advanced Materials Technologies,ananya.das@ananya-advanced-0387.example,+91-80-36239595,Active
+2407576271423261379,SUP-85AFFED4-0497,Rahul Precision Components Manufacturing,rahul.verma@rahul-precision-0497.example,+91-80-31746814,Active
+2438054830802666044,SUP-85AFFED4-0145,Maya Supply Solutions Pvt Ltd,maya.patel@maya-supply-0145.example,+91-80-39828696,Active
+2465305397575511087,SUP-85AFFED4-0487,Ananya Precision Components Manufacturing,ananya.das@ananya-precision-0487.example,+91-80-32049675,Active
+2471791258499321834,SUP-85AFFED4-0485,Maya Precision Components Manufacturing,maya.patel@maya-precision-0485.example,+91-80-51143267,Active
+2474475964949550666,SUP-85AFFED4-0120,Aditi Manufacturing Group Pvt Ltd,aditi.kulkarni@aditi-manufacturing-0120.example,+91-80-94503133,Active
+2479398675808525875,SUP-85AFFED4-0248,Vikram Automation Products Industries,vikram.mehta@vikram-automation-0248.example,+91-80-36858357,Active
+2495054418588825689,SUP-85AFFED4-0138,Sahana Electrical Industries Pvt Ltd,sahana.gowda@sahana-electrical-0138.example,+91-80-92259843,Active
+2544308177251043060,SUP-85AFFED4-0157,Rahul Supply Solutions Pvt Ltd,rahul.verma@rahul-supply-0157.example,+91-80-74272138,Active
+2557910062317339198,SUP-85AFFED4-0188,Vikram Industrial Systems Industries,vikram.mehta@vikram-industrial-0188.example,+91-80-61021732,Active
+2580798912297230884,SUP-85AFFED4-0371,Priya Engineering Works Technologies,priya.shah@priya-engineering-0371.example,+91-80-67365889,Active
+2582519379400908174,SUP-85AFFED4-0004,Ravi Precision Components Pvt Ltd,ravi.nair@ravi-precision-0004.example,+91-80-43159112,Active
+2612507274207078112,SUP-85AFFED4-0408,Vikram Automation Products Technologies,vikram.mehta@vikram-automation-0408.example,+91-80-81810910,Active
+2633181091260807019,SUP-85AFFED4-0109,Neha Manufacturing Group Pvt Ltd,neha.kapoor@neha-manufacturing-0109.example,+91-80-46989445,Active
+2649955832752235062,SUP-85AFFED4-0222,Rekha Advanced Materials Industries,rekha.iyer@rekha-advanced-0222.example,+91-80-44887982,Active
+2651900518284736503,SUP-85AFFED4-0212,Devika Engineering Works Industries,devika.joshi@devika-engineering-0212.example,+91-80-72291916,Active
+2654089772778925242,SUP-85AFFED4-0252,Devika Automation Products Industries,devika.joshi@devika-automation-0252.example,+91-80-28704371,Active
+2661864299380185908,SUP-85AFFED4-0247,Ananya Automation Products Industries,ananya.das@ananya-automation-0247.example,+91-80-61040850,Active
+2709351764432040757,SUP-85AFFED4-0410,Arjun Automation Products Technologies,arjun.menon@arjun-automation-0410.example,+91-80-80806686,Active
+2713035514332265987,SUP-85AFFED4-0220,Aditi Engineering Works Industries,aditi.kulkarni@aditi-engineering-0220.example,+91-80-89305131,Active
+2714746302832989259,SUP-85AFFED4-0172,Devika Precision Components Industries,devika.joshi@devika-precision-0172.example,+91-80-49460830,Active
+2718832368479672656,SUP-85AFFED4-0360,Aditi Industrial Systems Technologies,aditi.kulkarni@aditi-industrial-0360.example,+91-80-21023949,Active
+2728044302332829828,SUP-85AFFED4-0210,Arjun Engineering Works Industries,arjun.menon@arjun-engineering-0210.example,+91-80-93538643,Active
+2729366101421123711,SUP-85AFFED4-0019,Nikhil Precision Components Pvt Ltd,nikhil.bhat@nikhil-precision-0019.example,+91-80-88195934,Active
+2786930553250491962,SUP-85AFFED4-0233,Sanjay Advanced Materials Industries,sanjay.kumar@sanjay-advanced-0233.example,+91-80-95607092,Active
+2795778808305702500,SUP-85AFFED4-0283,Srinu Electrical Industries Industries,srinu.reddy@srinu-electrical-0283.example,+91-80-86155115,Active
+2797793525507434108,SUP-85AFFED4-0194,Meera Industrial Systems Industries,meera.krishnan@meera-industrial-0194.example,+91-80-49927460,Active
+2800288198888427054,SUP-85AFFED4-0107,Ananya Manufacturing Group Pvt Ltd,ananya.das@ananya-manufacturing-0107.example,+91-80-81756259,Active
+2820540332351048752,SUP-85AFFED4-0074,Meera Advanced Materials Pvt Ltd,meera.krishnan@meera-advanced-0074.example,+91-80-69074827,Active
+2835242552055713816,SUP-85AFFED4-0042,Rekha Engineering Works Pvt Ltd,rekha.iyer@rekha-engineering-0042.example,+91-80-88940636,Active
+2853134384180364185,SUP-85AFFED4-0225,Maya Advanced Materials Industries,maya.patel@maya-advanced-0225.example,+91-80-97097647,Active
+2865409397219836248,SUP-85AFFED4-0472,Devika Supply Solutions Technologies,devika.joshi@devika-supply-0472.example,+91-80-36913704,Active
+2884677941724721051,SUP-85AFFED4-0164,Ravi Precision Components Industries,ravi.nair@ravi-precision-0164.example,+91-80-56217165,Active
+2912091286335449952,SUP-85AFFED4-0378,Sahana Engineering Works Technologies,sahana.gowda@sahana-engineering-0378.example,+91-80-89068134,Active
+2924782136469737715,SUP-85AFFED4-0098,Sahana Automation Products Pvt Ltd,sahana.gowda@sahana-automation-0098.example,+91-80-26777907,Active
+2931864954254847916,SUP-85AFFED4-0199,Nikhil Industrial Systems Industries,nikhil.bhat@nikhil-industrial-0199.example,+91-80-43975785,Active
+2940453803455151238,SUP-85AFFED4-0112,Devika Manufacturing Group Pvt Ltd,devika.joshi@devika-manufacturing-0112.example,+91-80-88662629,Active
+2940904289852523482,SUP-85AFFED4-0368,Vikram Engineering Works Technologies,vikram.mehta@vikram-engineering-0368.example,+91-80-62405273,Active
+2946984832074718147,SUP-85AFFED4-0022,Rekha Industrial Systems Pvt Ltd,rekha.iyer@rekha-industrial-0022.example,+91-80-99220693,Active
+2955444107925860064,SUP-85AFFED4-0161,Akshu Precision Components Industries,akshu.sharma@akshu-precision-0161.example,+91-80-34633102,Active
+2961945748800585025,SUP-85AFFED4-0153,Sanjay Supply Solutions Pvt Ltd,sanjay.kumar@sanjay-supply-0153.example,+91-80-97473552,Active
+2964605582430635358,SUP-85AFFED4-0154,Meera Supply Solutions Pvt Ltd,meera.krishnan@meera-supply-0154.example,+91-80-69867277,Active
+2964606611447559942,SUP-85AFFED4-0370,Arjun Engineering Works Technologies,arjun.menon@arjun-engineering-0370.example,+91-80-75439022,Active
+2987475163099990406,SUP-85AFFED4-0224,Ravi Advanced Materials Industries,ravi.nair@ravi-advanced-0224.example,+91-80-30209350,Active
+3003014509459364741,SUP-85AFFED4-0011,Priya Precision Components Pvt Ltd,priya.shah@priya-precision-0011.example,+91-80-37672454,Active
+3007729338256610011,SUP-85AFFED4-0040,Aditi Industrial Systems Pvt Ltd,aditi.kulkarni@aditi-industrial-0040.example,+91-80-50068715,Active
+3046746014656185319,SUP-85AFFED4-0054,Meera Engineering Works Pvt Ltd,meera.krishnan@meera-engineering-0054.example,+91-80-90856161,Active
+3073498083726170032,SUP-85AFFED4-0309,Neha Supply Solutions Industries,neha.kapoor@neha-supply-0309.example,+91-80-54804073,Active
+3082258289733342552,SUP-85AFFED4-0197,Rahul Industrial Systems Industries,rahul.verma@rahul-industrial-0197.example,+91-80-27825088,Active
+3084392580756523063,SUP-85AFFED4-0065,Maya Advanced Materials Pvt Ltd,maya.patel@maya-advanced-0065.example,+91-80-30085868,Active
+3091608379961105507,SUP-85AFFED4-0377,Rahul Engineering Works Technologies,rahul.verma@rahul-engineering-0377.example,+91-80-79967314,Active
+3098762539118656001,SUP-85AFFED4-0380,Aditi Engineering Works Technologies,aditi.kulkarni@aditi-engineering-0380.example,+91-80-92727710,Active
+3124696196571771171,SUP-85AFFED4-0155,Aarav Supply Solutions Pvt Ltd,aarav.singh@aarav-supply-0155.example,+91-80-31987009,Active
+3128144028217089440,SUP-85AFFED4-0251,Priya Automation Products Industries,priya.shah@priya-automation-0251.example,+91-80-67680358,Active
+3136129473458007070,SUP-85AFFED4-0204,Ravi Engineering Works Industries,ravi.nair@ravi-engineering-0204.example,+91-80-72996571,Active
+3143101250222740934,SUP-85AFFED4-0033,Sanjay Industrial Systems Pvt Ltd,sanjay.kumar@sanjay-industrial-0033.example,+91-80-28270313,Active
+3146315751258697627,SUP-85AFFED4-0211,Priya Engineering Works Industries,priya.shah@priya-engineering-0211.example,+91-80-49806919,Active
+3156751516987835898,SUP-85AFFED4-0202,Rekha Engineering Works Industries,rekha.iyer@rekha-engineering-0202.example,+91-80-77425250,Active
+3165470478186462955,SUP-85AFFED4-0393,Sanjay Advanced Materials Technologies,sanjay.kumar@sanjay-advanced-0393.example,+91-80-36082566,Active
+3166608952065087994,SUP-85AFFED4-0320,Aditi Supply Solutions Industries,aditi.kulkarni@aditi-supply-0320.example,+91-80-34409651,Active
+3170260528142898331,SUP-85AFFED4-0445,Maya Electrical Industries Technologies,maya.patel@maya-electrical-0445.example,+91-80-89935200,Active
+3207379427020773071,SUP-85AFFED4-0307,Ananya Supply Solutions Industries,ananya.das@ananya-supply-0307.example,+91-80-57307006,Active
+3208460753457522273,SUP-85AFFED4-0280,Aditi Manufacturing Group Industries,aditi.kulkarni@aditi-manufacturing-0280.example,+91-80-96543350,Active
+3230522108489669433,SUP-85AFFED4-0059,Nikhil Engineering Works Pvt Ltd,nikhil.bhat@nikhil-engineering-0059.example,+91-80-32871708,Active
+3231256557636625114,SUP-85AFFED4-0165,Maya Precision Components Industries,maya.patel@maya-precision-0165.example,+91-80-68138071,Active
+3259324478440926905,SUP-85AFFED4-0261,Akshu Manufacturing Group Industries,akshu.sharma@akshu-manufacturing-0261.example,+91-80-72086044,Active
+3266335435451840692,SUP-85AFFED4-0448,Vikram Electrical Industries Technologies,vikram.mehta@vikram-electrical-0448.example,+91-80-58619763,Active
+3268307495433331986,SUP-85AFFED4-0435,Aarav Manufacturing Group Technologies,aarav.singh@aarav-manufacturing-0435.example,+91-80-41069632,Active
+3310697610089981999,SUP-85AFFED4-0241,Akshu Automation Products Industries,akshu.sharma@akshu-automation-0241.example,+91-80-25344769,Active
+3330821526250214321,SUP-85AFFED4-0034,Meera Industrial Systems Pvt Ltd,meera.krishnan@meera-industrial-0034.example,+91-80-39909372,Active
+3336656068489396335,SUP-85AFFED4-0238,Sahana Advanced Materials Industries,sahana.gowda@sahana-advanced-0238.example,+91-80-56716426,Active
+3358601665421045994,SUP-85AFFED4-0500,Aditi Precision Components Manufacturing,aditi.kulkarni@aditi-precision-0500.example,+91-80-63332423,Active
+3368456847555873296,SUP-85AFFED4-0058,Sahana Engineering Works Pvt Ltd,sahana.gowda@sahana-engineering-0058.example,+91-80-69777096,Active
+3396615213706877893,SUP-85AFFED4-0124,Ravi Electrical Industries Pvt Ltd,ravi.nair@ravi-electrical-0124.example,+91-80-43907840,Active
+3403938248497369236,SUP-85AFFED4-0421,Akshu Manufacturing Group Technologies,akshu.sharma@akshu-manufacturing-0421.example,+91-80-27806416,Active
+3421207193373490550,SUP-85AFFED4-0021,Akshu Industrial Systems Pvt Ltd,akshu.sharma@akshu-industrial-0021.example,+91-80-49058895,Active
+3439563236878281980,SUP-85AFFED4-0397,Rahul Advanced Materials Technologies,rahul.verma@rahul-advanced-0397.example,+91-80-23213776,Active
+3448094266574554681,SUP-85AFFED4-0499,Nikhil Precision Components Manufacturing,nikhil.bhat@nikhil-precision-0499.example,+91-80-73637154,Active
+3448115686506077992,SUP-85AFFED4-0399,Nikhil Advanced Materials Technologies,nikhil.bhat@nikhil-advanced-0399.example,+91-80-58640149,Active
+3492539254673423016,SUP-85AFFED4-0376,Divya Engineering Works Technologies,divya.pillai@divya-engineering-0376.example,+91-80-58412370,Active
+3495133446289445124,SUP-85AFFED4-0423,Srinu Manufacturing Group Technologies,srinu.reddy@srinu-manufacturing-0423.example,+91-80-25192601,Active
+3495799700170280267,SUP-85AFFED4-0215,Aarav Engineering Works Industries,aarav.singh@aarav-engineering-0215.example,+91-80-81714834,Active
+3496705055826119933,SUP-85AFFED4-0330,Arjun Precision Components Technologies,arjun.menon@arjun-precision-0330.example,+91-80-92999996,Active
+3507134406838638878,SUP-85AFFED4-0023,Srinu Industrial Systems Pvt Ltd,srinu.reddy@srinu-industrial-0023.example,+91-80-80530438,Active
+3511834849611578095,SUP-85AFFED4-0346,Kiran Industrial Systems Technologies,kiran.rao@kiran-industrial-0346.example,+91-80-50729435,Active
+3536378840301205835,SUP-85AFFED4-0182,Rekha Industrial Systems Industries,rekha.iyer@rekha-industrial-0182.example,+91-80-74037068,Active
+3549068996771310640,SUP-85AFFED4-0017,Rahul Precision Components Pvt Ltd,rahul.verma@rahul-precision-0017.example,+91-80-45962405,Active
+3565509969351239113,SUP-85AFFED4-0425,Maya Manufacturing Group Technologies,maya.patel@maya-manufacturing-0425.example,+91-80-42429303,Active
+3566470343367300848,SUP-85AFFED4-0443,Srinu Electrical Industries Technologies,srinu.reddy@srinu-electrical-0443.example,+91-80-48572476,Active
+3581083624421632510,SUP-85AFFED4-0335,Aarav Precision Components Technologies,aarav.singh@aarav-precision-0335.example,+91-80-26727984,Active
+3583081585882339951,SUP-85AFFED4-0156,Divya Supply Solutions Pvt Ltd,divya.pillai@divya-supply-0156.example,+91-80-44804846,Active
+3600605701673662701,SUP-85AFFED4-0300,Aditi Electrical Industries Industries,aditi.kulkarni@aditi-electrical-0300.example,+91-80-90470256,Active
+3606015101435198323,SUP-85AFFED4-0217,Rahul Engineering Works Industries,rahul.verma@rahul-engineering-0217.example,+91-80-73792331,Active
+3621031171648476380,SUP-85AFFED4-0070,Arjun Advanced Materials Pvt Ltd,arjun.menon@arjun-advanced-0070.example,+91-80-84360046,Active
+3637383840098634266,SUP-85AFFED4-0086,Kiran Automation Products Pvt Ltd,kiran.rao@kiran-automation-0086.example,+91-80-87428194,Active
+3710353769050592432,SUP-85AFFED4-0484,Ravi Precision Components Manufacturing,ravi.nair@ravi-precision-0484.example,+91-80-66285425,Active
+3717453785004342219,SUP-85AFFED4-0382,Rekha Advanced Materials Technologies,rekha.iyer@rekha-advanced-0382.example,+91-80-42660084,Active
+3757342163036128825,SUP-85AFFED4-0475,Aarav Supply Solutions Technologies,aarav.singh@aarav-supply-0475.example,+91-80-60554810,Active
+3777685053566448734,SUP-85AFFED4-0331,Priya Precision Components Technologies,priya.shah@priya-precision-0331.example,+91-80-27197551,Active
+3799413376289880389,SUP-85AFFED4-0316,Divya Supply Solutions Industries,divya.pillai@divya-supply-0316.example,+91-80-47818976,Active
+3801844385426816914,SUP-85AFFED4-0195,Aarav Industrial Systems Industries,aarav.singh@aarav-industrial-0195.example,+91-80-83682461,Active
+3801845491071658593,SUP-85AFFED4-0337,Rahul Precision Components Technologies,rahul.verma@rahul-precision-0337.example,+91-80-67014535,Active
+3821499906985261767,SUP-85AFFED4-0257,Rahul Automation Products Industries,rahul.verma@rahul-automation-0257.example,+91-80-44190352,Active
+3844478784383415767,SUP-85AFFED4-0173,Sanjay Precision Components Industries,sanjay.kumar@sanjay-precision-0173.example,+91-80-85831831,Active
+3879349117502330786,SUP-85AFFED4-0415,Aarav Automation Products Technologies,aarav.singh@aarav-automation-0415.example,+91-80-35476061,Active
+3885644177366948750,SUP-85AFFED4-0102,Rekha Manufacturing Group Pvt Ltd,rekha.iyer@rekha-manufacturing-0102.example,+91-80-71839175,Active
+3909517153214608730,SUP-85AFFED4-0306,Kiran Supply Solutions Industries,kiran.rao@kiran-supply-0306.example,+91-80-66445226,Active
+3925379479986542465,SUP-85AFFED4-0489,Neha Precision Components Manufacturing,neha.kapoor@neha-precision-0489.example,+91-80-95556189,Active
+3937038239585573607,SUP-85AFFED4-0063,Srinu Advanced Materials Pvt Ltd,srinu.reddy@srinu-advanced-0063.example,+91-80-20773718,Active
+3961261983650366616,SUP-85AFFED4-0057,Rahul Engineering Works Pvt Ltd,rahul.verma@rahul-engineering-0057.example,+91-80-29690547,Active
+3962164674008601441,SUP-85AFFED4-0075,Aarav Advanced Materials Pvt Ltd,aarav.singh@aarav-advanced-0075.example,+91-80-25540416,Active
+3993021503414157419,SUP-85AFFED4-0151,Priya Supply Solutions Pvt Ltd,priya.shah@priya-supply-0151.example,+91-80-77931643,Active
+4023204304299780195,SUP-85AFFED4-0350,Arjun Industrial Systems Technologies,arjun.menon@arjun-industrial-0350.example,+91-80-61586037,Active
+4032991191773371218,SUP-85AFFED4-0400,Aditi Advanced Materials Technologies,aditi.kulkarni@aditi-advanced-0400.example,+91-80-23266531,Active
+4057171833521061533,SUP-85AFFED4-0471,Priya Supply Solutions Technologies,priya.shah@priya-supply-0471.example,+91-80-81409152,Active
+4065816634799572725,SUP-85AFFED4-0333,Sanjay Precision Components Technologies,sanjay.kumar@sanjay-precision-0333.example,+91-80-68566970,Active
+4096424211091344223,SUP-85AFFED4-0334,Meera Precision Components Technologies,meera.krishnan@meera-precision-0334.example,+91-80-84198398,Active
+4099083124588807390,SUP-85AFFED4-0259,Nikhil Automation Products Industries,nikhil.bhat@nikhil-automation-0259.example,+91-80-80554188,Active
+4100399253591612161,SUP-85AFFED4-0256,Divya Automation Products Industries,divya.pillai@divya-automation-0256.example,+91-80-95753678,Active
+4107772103759668578,SUP-85AFFED4-0105,Maya Manufacturing Group Pvt Ltd,maya.patel@maya-manufacturing-0105.example,+91-80-77944084,Active
+4125798417651416847,SUP-85AFFED4-0468,Vikram Supply Solutions Technologies,vikram.mehta@vikram-supply-0468.example,+91-80-90926897,Active
+4184396686357845498,SUP-85AFFED4-0078,Sahana Advanced Materials Pvt Ltd,sahana.gowda@sahana-advanced-0078.example,+91-80-20715972,Active
+4192816426603041731,SUP-85AFFED4-0091,Priya Automation Products Pvt Ltd,priya.shah@priya-automation-0091.example,+91-80-82837967,Active
+4255712568837973193,SUP-85AFFED4-0275,Aarav Manufacturing Group Industries,aarav.singh@aarav-manufacturing-0275.example,+91-80-65393976,Active
+4276679099179863868,SUP-85AFFED4-0467,Ananya Supply Solutions Technologies,ananya.das@ananya-supply-0467.example,+91-80-46957992,Active
+4287594351669459121,SUP-85AFFED4-0422,Rekha Manufacturing Group Technologies,rekha.iyer@rekha-manufacturing-0422.example,+91-80-73030500,Active
+4290911446343808551,SUP-85AFFED4-0020,Aditi Precision Components Pvt Ltd,aditi.kulkarni@aditi-precision-0020.example,+91-80-35545062,Active
+4315807758898161434,SUP-85AFFED4-0396,Divya Advanced Materials Technologies,divya.pillai@divya-advanced-0396.example,+91-80-83225401,Active
+4331321616166700256,SUP-85AFFED4-0395,Aarav Advanced Materials Technologies,aarav.singh@aarav-advanced-0395.example,+91-80-25761094,Active
+4337742529022515134,SUP-85AFFED4-0176,Divya Precision Components Industries,divya.pillai@divya-precision-0176.example,+91-80-28619913,Active
+4364298865047462823,SUP-85AFFED4-0364,Ravi Engineering Works Technologies,ravi.nair@ravi-engineering-0364.example,+91-80-20556006,Active
+4374913327128399479,SUP-85AFFED4-0229,Neha Advanced Materials Industries,neha.kapoor@neha-advanced-0229.example,+91-80-94677242,Active
+4453802309276889465,SUP-85AFFED4-0281,Akshu Electrical Industries Industries,akshu.sharma@akshu-electrical-0281.example,+91-80-69164752,Active
+4483685628727692977,SUP-85AFFED4-0473,Sanjay Supply Solutions Technologies,sanjay.kumar@sanjay-supply-0473.example,+91-80-84556851,Active
+4490281995552391240,SUP-85AFFED4-0235,Aarav Advanced Materials Industries,aarav.singh@aarav-advanced-0235.example,+91-80-53761606,Active
+4495267709768945990,SUP-85AFFED4-0327,Ananya Precision Components Technologies,ananya.das@ananya-precision-0327.example,+91-80-63208216,Active
+4510539430997563315,SUP-85AFFED4-0152,Devika Supply Solutions Pvt Ltd,devika.joshi@devika-supply-0152.example,+91-80-87413458,Active
+4532664004317605692,SUP-85AFFED4-0221,Akshu Advanced Materials Industries,akshu.sharma@akshu-advanced-0221.example,+91-80-31743162,Active
+4545532340940606829,SUP-85AFFED4-0403,Srinu Automation Products Technologies,srinu.reddy@srinu-automation-0403.example,+91-80-69821271,Active
+4547966386750164966,SUP-85AFFED4-0163,Srinu Precision Components Industries,srinu.reddy@srinu-precision-0163.example,+91-80-21571671,Active
+4554197459651708031,SUP-85AFFED4-0430,Arjun Manufacturing Group Technologies,arjun.menon@arjun-manufacturing-0430.example,+91-80-53242968,Active
+4579974138560294703,SUP-85AFFED4-0381,Akshu Advanced Materials Technologies,akshu.sharma@akshu-advanced-0381.example,+91-80-61573058,Active
+4590160382794054179,SUP-85AFFED4-0279,Nikhil Manufacturing Group Industries,nikhil.bhat@nikhil-manufacturing-0279.example,+91-80-32521924,Active
+4601611631506414933,SUP-85AFFED4-0258,Sahana Automation Products Industries,sahana.gowda@sahana-automation-0258.example,+91-80-61346025,Active
+4605559710702500097,SUP-85AFFED4-0496,Divya Precision Components Manufacturing,divya.pillai@divya-precision-0496.example,+91-80-25776862,Active
+4611257489736487829,SUP-85AFFED4-0148,Vikram Supply Solutions Pvt Ltd,vikram.mehta@vikram-supply-0148.example,+91-80-52978682,Active
+4614311861933112071,SUP-85AFFED4-0293,Sanjay Electrical Industries Industries,sanjay.kumar@sanjay-electrical-0293.example,+91-80-78314125,Active
+4651148084217309380,SUP-85AFFED4-0203,Srinu Engineering Works Industries,srinu.reddy@srinu-engineering-0203.example,+91-80-69093238,Active
+4667677867967928178,SUP-85AFFED4-0116,Divya Manufacturing Group Pvt Ltd,divya.pillai@divya-manufacturing-0116.example,+91-80-54590518,Active
+4679226163385716895,SUP-85AFFED4-0362,Rekha Engineering Works Technologies,rekha.iyer@rekha-engineering-0362.example,+91-80-82118275,Active
+4696215674952842486,SUP-85AFFED4-0315,Aarav Supply Solutions Industries,aarav.singh@aarav-supply-0315.example,+91-80-94909388,Active
+4700394908435753848,SUP-85AFFED4-0299,Nikhil Electrical Industries Industries,nikhil.bhat@nikhil-electrical-0299.example,+91-80-39448846,Active
+4714145838127078227,SUP-85AFFED4-0003,Srinu Precision Components Pvt Ltd,srinu.reddy@srinu-precision-0003.example,+91-80-57977622,Active
+4728966916994395169,SUP-85AFFED4-0056,Divya Engineering Works Pvt Ltd,divya.pillai@divya-engineering-0056.example,+91-80-27765881,Active
+4735961589196810716,SUP-85AFFED4-0392,Devika Advanced Materials Technologies,devika.joshi@devika-advanced-0392.example,+91-80-50334237,Active
+4746110301077721879,SUP-85AFFED4-0294,Meera Electrical Industries Industries,meera.krishnan@meera-electrical-0294.example,+91-80-71116160,Active
+4746646637608243432,SUP-85AFFED4-0369,Neha Engineering Works Technologies,neha.kapoor@neha-engineering-0369.example,+91-80-64740306,Active
+4797436695210146275,SUP-85AFFED4-0414,Meera Automation Products Technologies,meera.krishnan@meera-automation-0414.example,+91-80-38294575,Active
+4813584208337024242,SUP-85AFFED4-0312,Devika Supply Solutions Industries,devika.joshi@devika-supply-0312.example,+91-80-95168660,Active
+4820509630999893126,SUP-85AFFED4-0263,Srinu Manufacturing Group Industries,srinu.reddy@srinu-manufacturing-0263.example,+91-80-91214856,Active
+4824271128116704895,SUP-85AFFED4-0144,Ravi Supply Solutions Pvt Ltd,ravi.nair@ravi-supply-0144.example,+91-80-95360926,Active
+4846944252381635327,SUP-85AFFED4-0444,Ravi Electrical Industries Technologies,ravi.nair@ravi-electrical-0444.example,+91-80-95619498,Active
+4850900098835396269,SUP-85AFFED4-0373,Sanjay Engineering Works Technologies,sanjay.kumar@sanjay-engineering-0373.example,+91-80-57239600,Active
+4902577499216157254,SUP-85AFFED4-0470,Arjun Supply Solutions Technologies,arjun.menon@arjun-supply-0470.example,+91-80-87067696,Active
+4910938952804926176,SUP-85AFFED4-0032,Devika Industrial Systems Pvt Ltd,devika.joshi@devika-industrial-0032.example,+91-80-27657267,Active
+4929805323331004483,SUP-85AFFED4-0284,Ravi Electrical Industries Industries,ravi.nair@ravi-electrical-0284.example,+91-80-86251892,Active
+4959498928886852340,SUP-85AFFED4-0198,Sahana Industrial Systems Industries,sahana.gowda@sahana-industrial-0198.example,+91-80-58315083,Active
+4981552174942254590,SUP-85AFFED4-0498,Sahana Precision Components Manufacturing,sahana.gowda@sahana-precision-0498.example,+91-80-36070002,Active
+4985404363187549242,SUP-85AFFED4-0391,Priya Advanced Materials Technologies,priya.shah@priya-advanced-0391.example,+91-80-63433675,Active
+5014940011152288191,SUP-85AFFED4-0253,Sanjay Automation Products Industries,sanjay.kumar@sanjay-automation-0253.example,+91-80-37802782,Active
+5015943815771041095,SUP-85AFFED4-0052,Devika Engineering Works Pvt Ltd,devika.joshi@devika-engineering-0052.example,+91-80-36939108,Active
+5031099737935180324,SUP-85AFFED4-0388,Vikram Advanced Materials Technologies,vikram.mehta@vikram-advanced-0388.example,+91-80-20016875,Active
+5061222503850506313,SUP-85AFFED4-0181,Akshu Industrial Systems Industries,akshu.sharma@akshu-industrial-0181.example,+91-80-39813977,Active
+5063846907698218911,SUP-85AFFED4-0006,Kiran Precision Components Pvt Ltd,kiran.rao@kiran-precision-0006.example,+91-80-52424444,Active
+5116091954636590245,SUP-85AFFED4-0213,Sanjay Engineering Works Industries,sanjay.kumar@sanjay-engineering-0213.example,+91-80-88569913,Active
+5119064049529482201,SUP-85AFFED4-0009,Neha Precision Components Pvt Ltd,neha.kapoor@neha-precision-0009.example,+91-80-20392689,Active
+5123490490852121205,SUP-85AFFED4-0214,Meera Engineering Works Industries,meera.krishnan@meera-engineering-0214.example,+91-80-94708254,Active
+5193064877921814504,SUP-85AFFED4-0093,Sanjay Automation Products Pvt Ltd,sanjay.kumar@sanjay-automation-0093.example,+91-80-36110419,Active
+5233799671352972201,SUP-85AFFED4-0226,Kiran Advanced Materials Industries,kiran.rao@kiran-advanced-0226.example,+91-80-81990805,Active
+5236152160319264089,SUP-85AFFED4-0319,Nikhil Supply Solutions Industries,nikhil.bhat@nikhil-supply-0319.example,+91-80-69243606,Active
+5246700450046900581,SUP-85AFFED4-0254,Meera Automation Products Industries,meera.krishnan@meera-automation-0254.example,+91-80-40819974,Active
+5303104459399952174,SUP-85AFFED4-0072,Devika Advanced Materials Pvt Ltd,devika.joshi@devika-advanced-0072.example,+91-80-91536858,Active
+5316220644342235885,SUP-85AFFED4-0062,Rekha Advanced Materials Pvt Ltd,rekha.iyer@rekha-advanced-0062.example,+91-80-45719509,Active
+5328387550870288373,SUP-85AFFED4-0446,Kiran Electrical Industries Technologies,kiran.rao@kiran-electrical-0446.example,+91-80-38570432,Active
+5337097205279128650,SUP-85AFFED4-0167,Ananya Precision Components Industries,ananya.das@ananya-precision-0167.example,+91-80-91321803,Active
+5338438348787450814,SUP-85AFFED4-0348,Vikram Industrial Systems Technologies,vikram.mehta@vikram-industrial-0348.example,+91-80-48280136,Active
+5365024960953594871,SUP-85AFFED4-0341,Akshu Industrial Systems Technologies,akshu.sharma@akshu-industrial-0341.example,+91-80-68985249,Active
+5395541247115894340,SUP-85AFFED4-0216,Divya Engineering Works Industries,divya.pillai@divya-engineering-0216.example,+91-80-29381987,Active
+5406559268579755189,SUP-85AFFED4-0450,Arjun Electrical Industries Technologies,arjun.menon@arjun-electrical-0450.example,+91-80-27014397,Active
+5408328462075202225,SUP-85AFFED4-0037,Rahul Industrial Systems Pvt Ltd,rahul.verma@rahul-industrial-0037.example,+91-80-28758772,Active
+5417584461232893359,SUP-85AFFED4-0146,Kiran Supply Solutions Pvt Ltd,kiran.rao@kiran-supply-0146.example,+91-80-40439185,Active
+5460124680844164956,SUP-85AFFED4-0402,Rekha Automation Products Technologies,rekha.iyer@rekha-automation-0402.example,+91-80-46729510,Active
+5462173259334936445,SUP-85AFFED4-0459,Nikhil Electrical Industries Technologies,nikhil.bhat@nikhil-electrical-0459.example,+91-80-40993596,Active
+5470665112644978722,SUP-85AFFED4-0431,Priya Manufacturing Group Technologies,priya.shah@priya-manufacturing-0431.example,+91-80-68912124,Active
+5497982165655251667,SUP-85AFFED4-0160,Aditi Supply Solutions Pvt Ltd,aditi.kulkarni@aditi-supply-0160.example,+91-80-62028213,Active
+5554388711365328856,SUP-85AFFED4-0418,Sahana Automation Products Technologies,sahana.gowda@sahana-automation-0418.example,+91-80-30124331,Active
+5573526443429339005,SUP-85AFFED4-0142,Rekha Supply Solutions Pvt Ltd,rekha.iyer@rekha-supply-0142.example,+91-80-85447592,Active
+5578726337287390186,SUP-85AFFED4-0298,Sahana Electrical Industries Industries,sahana.gowda@sahana-electrical-0298.example,+91-80-35404706,Active
+5601816691759767529,SUP-85AFFED4-0187,Ananya Industrial Systems Industries,ananya.das@ananya-industrial-0187.example,+91-80-64586399,Active
+5630354642263826511,SUP-85AFFED4-0073,Sanjay Advanced Materials Pvt Ltd,sanjay.kumar@sanjay-advanced-0073.example,+91-80-28011259,Active
+5660523642980247791,SUP-85AFFED4-0101,Akshu Manufacturing Group Pvt Ltd,akshu.sharma@akshu-manufacturing-0101.example,+91-80-21874869,Active
+5682637398559226927,SUP-85AFFED4-0111,Priya Manufacturing Group Pvt Ltd,priya.shah@priya-manufacturing-0111.example,+91-80-94933745,Active
+5691413119303656139,SUP-85AFFED4-0304,Ravi Supply Solutions Industries,ravi.nair@ravi-supply-0304.example,+91-80-32585206,Active
+5712998749263975915,SUP-85AFFED4-0126,Kiran Electrical Industries Pvt Ltd,kiran.rao@kiran-electrical-0126.example,+91-80-87265855,Active
+5716844645628839202,SUP-85AFFED4-0104,Ravi Manufacturing Group Pvt Ltd,ravi.nair@ravi-manufacturing-0104.example,+91-80-57692825,Active
+5720728428758660777,SUP-85AFFED4-0103,Srinu Manufacturing Group Pvt Ltd,srinu.reddy@srinu-manufacturing-0103.example,+91-80-88978283,Active
+5767488226827834854,SUP-85AFFED4-0114,Meera Manufacturing Group Pvt Ltd,meera.krishnan@meera-manufacturing-0114.example,+91-80-85084693,Active
+5775088998394360928,SUP-85AFFED4-0374,Meera Engineering Works Technologies,meera.krishnan@meera-engineering-0374.example,+91-80-98651999,Active
+5786779808659006864,SUP-85AFFED4-0464,Ravi Supply Solutions Technologies,ravi.nair@ravi-supply-0464.example,+91-80-90820983,Active
+5793534999874111538,SUP-85AFFED4-0366,Kiran Engineering Works Technologies,kiran.rao@kiran-engineering-0366.example,+91-80-28127742,Active
+5825241807994179285,SUP-85AFFED4-0162,Rekha Precision Components Industries,rekha.iyer@rekha-precision-0162.example,+91-80-46236818,Active
+5857952693951412653,SUP-85AFFED4-0424,Ravi Manufacturing Group Technologies,ravi.nair@ravi-manufacturing-0424.example,+91-80-61214174,Active
+5866862738085335146,SUP-85AFFED4-0245,Maya Automation Products Industries,maya.patel@maya-automation-0245.example,+91-80-56224810,Active
+5870453344831023790,SUP-85AFFED4-0083,Srinu Automation Products Pvt Ltd,srinu.reddy@srinu-automation-0083.example,+91-80-41685877,Active
+5889570047654015064,SUP-85AFFED4-0344,Ravi Industrial Systems Technologies,ravi.nair@ravi-industrial-0344.example,+91-80-31906622,Active
+5941399103034329019,SUP-85AFFED4-0417,Rahul Automation Products Technologies,rahul.verma@rahul-automation-0417.example,+91-80-96345230,Active
+5957690986248553158,SUP-85AFFED4-0301,Akshu Supply Solutions Industries,akshu.sharma@akshu-supply-0301.example,+91-80-93095624,Active
+5961775360364870338,SUP-85AFFED4-0013,Sanjay Precision Components Pvt Ltd,sanjay.kumar@sanjay-precision-0013.example,+91-80-46689445,Active
+5974742094107478415,SUP-85AFFED4-0465,Maya Supply Solutions Technologies,maya.patel@maya-supply-0465.example,+91-80-71709314,Active
+6019177990190933751,SUP-85AFFED4-0440,Aditi Manufacturing Group Technologies,aditi.kulkarni@aditi-manufacturing-0440.example,+91-80-45257142,Active
+6029439255395209733,SUP-85AFFED4-0460,Aditi Electrical Industries Technologies,aditi.kulkarni@aditi-electrical-0460.example,+91-80-88717731,Active
+6062459965125080754,SUP-85AFFED4-0318,Sahana Supply Solutions Industries,sahana.gowda@sahana-supply-0318.example,+91-80-22153885,Active
+6075058950281702156,SUP-85AFFED4-0339,Nikhil Precision Components Technologies,nikhil.bhat@nikhil-precision-0339.example,+91-80-54791980,Active
+6076571769111046423,SUP-85AFFED4-0313,Sanjay Supply Solutions Industries,sanjay.kumar@sanjay-supply-0313.example,+91-80-99137471,Active
+6099400837593659863,SUP-85AFFED4-0077,Rahul Advanced Materials Pvt Ltd,rahul.verma@rahul-advanced-0077.example,+91-80-70826448,Active
+6162432031554081037,SUP-85AFFED4-0490,Arjun Precision Components Manufacturing,arjun.menon@arjun-precision-0490.example,+91-80-93848384,Active
+6195256096795058506,SUP-85AFFED4-0488,Vikram Precision Components Manufacturing,vikram.mehta@vikram-precision-0488.example,+91-80-49654942,Active
+6195717844022559326,SUP-85AFFED4-0095,Aarav Automation Products Pvt Ltd,aarav.singh@aarav-automation-0095.example,+91-80-59284995,Active
+6203228319010543431,SUP-85AFFED4-0227,Ananya Advanced Materials Industries,ananya.das@ananya-advanced-0227.example,+91-80-25286559,Active
+6277993049858383346,SUP-85AFFED4-0036,Divya Industrial Systems Pvt Ltd,divya.pillai@divya-industrial-0036.example,+91-80-81394167,Active
+6338641421746314128,SUP-85AFFED4-0287,Ananya Electrical Industries Industries,ananya.das@ananya-electrical-0287.example,+91-80-59836257,Active
+6342055167990773514,SUP-85AFFED4-0302,Rekha Supply Solutions Industries,rekha.iyer@rekha-supply-0302.example,+91-80-37926632,Active
+6351802580542997489,SUP-85AFFED4-0243,Srinu Automation Products Industries,srinu.reddy@srinu-automation-0243.example,+91-80-94017421,Active
+6360693095169349681,SUP-85AFFED4-0158,Sahana Supply Solutions Pvt Ltd,sahana.gowda@sahana-supply-0158.example,+91-80-65203941,Active
+6420527430603889944,SUP-85AFFED4-0457,Rahul Electrical Industries Technologies,rahul.verma@rahul-electrical-0457.example,+91-80-57850410,Active
+6443396464229756511,SUP-85AFFED4-0183,Srinu Industrial Systems Industries,srinu.reddy@srinu-industrial-0183.example,+91-80-76913251,Active
+6456266213559559065,SUP-85AFFED4-0462,Rekha Supply Solutions Technologies,rekha.iyer@rekha-supply-0462.example,+91-80-92895318,Active
+6483291965679302799,SUP-85AFFED4-0014,Meera Precision Components Pvt Ltd,meera.krishnan@meera-precision-0014.example,+91-80-45958028,Active
+6493734883081749787,SUP-85AFFED4-0432,Devika Manufacturing Group Technologies,devika.joshi@devika-manufacturing-0432.example,+91-80-84653209,Active
+6545237373655694542,SUP-85AFFED4-0092,Devika Automation Products Pvt Ltd,devika.joshi@devika-automation-0092.example,+91-80-21964429,Active
+6576297924987406370,SUP-85AFFED4-0208,Vikram Engineering Works Industries,vikram.mehta@vikram-engineering-0208.example,+91-80-93268632,Active
+6587103668295135338,SUP-85AFFED4-0140,Aditi Electrical Industries Pvt Ltd,aditi.kulkarni@aditi-electrical-0140.example,+91-80-50878360,Active
+6635844640643314813,SUP-85AFFED4-0438,Sahana Manufacturing Group Technologies,sahana.gowda@sahana-manufacturing-0438.example,+91-80-55649872,Active
+6637137044942677800,SUP-85AFFED4-0231,Priya Advanced Materials Industries,priya.shah@priya-advanced-0231.example,+91-80-61901347,Active
+6664803643091732405,SUP-85AFFED4-0451,Priya Electrical Industries Technologies,priya.shah@priya-electrical-0451.example,+91-80-77408975,Active
+6716977358012080512,SUP-85AFFED4-0084,Ravi Automation Products Pvt Ltd,ravi.nair@ravi-automation-0084.example,+91-80-60873235,Active
+6726742463911724992,SUP-85AFFED4-0297,Rahul Electrical Industries Industries,rahul.verma@rahul-electrical-0297.example,+91-80-60056177,Active
+6784855731248392425,SUP-85AFFED4-0189,Neha Industrial Systems Industries,neha.kapoor@neha-industrial-0189.example,+91-80-26871630,Active
+6799012968188416152,SUP-85AFFED4-0110,Arjun Manufacturing Group Pvt Ltd,arjun.menon@arjun-manufacturing-0110.example,+91-80-62447689,Active
+6806050417148439066,SUP-85AFFED4-0311,Priya Supply Solutions Industries,priya.shah@priya-supply-0311.example,+91-80-97086707,Active
+6913672147182418141,SUP-85AFFED4-0170,Arjun Precision Components Industries,arjun.menon@arjun-precision-0170.example,+91-80-22897191,Active
+6919785608089139757,SUP-85AFFED4-0115,Aarav Manufacturing Group Pvt Ltd,aarav.singh@aarav-manufacturing-0115.example,+91-80-57584927,Active
+6938618368980070041,SUP-85AFFED4-0349,Neha Industrial Systems Technologies,neha.kapoor@neha-industrial-0349.example,+91-80-31581303,Active
+6948706506673853604,SUP-85AFFED4-0136,Divya Electrical Industries Pvt Ltd,divya.pillai@divya-electrical-0136.example,+91-80-98247054,Active
+6967994112217596703,SUP-85AFFED4-0271,Priya Manufacturing Group Industries,priya.shah@priya-manufacturing-0271.example,+91-80-67403152,Active
+6986527676425926027,SUP-85AFFED4-0406,Kiran Automation Products Technologies,kiran.rao@kiran-automation-0406.example,+91-80-43373533,Active
+6989458431831631875,SUP-85AFFED4-0420,Aditi Automation Products Technologies,aditi.kulkarni@aditi-automation-0420.example,+91-80-49128192,Active
+7026129618885537562,SUP-85AFFED4-0061,Akshu Advanced Materials Pvt Ltd,akshu.sharma@akshu-advanced-0061.example,+91-80-87737957,Active
+7038209733004408230,SUP-85AFFED4-0127,Ananya Electrical Industries Pvt Ltd,ananya.das@ananya-electrical-0127.example,+91-80-40363474,Active
+7053250953313775171,SUP-85AFFED4-0184,Ravi Industrial Systems Industries,ravi.nair@ravi-industrial-0184.example,+91-80-69616394,Active
+7084670785138274250,SUP-85AFFED4-0314,Meera Supply Solutions Industries,meera.krishnan@meera-supply-0314.example,+91-80-43492068,Active
+7086689915064841615,SUP-85AFFED4-0405,Maya Automation Products Technologies,maya.patel@maya-automation-0405.example,+91-80-31955691,Active
+7110516728154861216,SUP-85AFFED4-0029,Neha Industrial Systems Pvt Ltd,neha.kapoor@neha-industrial-0029.example,+91-80-98494865,Active
+7119000548471455598,SUP-85AFFED4-0323,Srinu Precision Components Technologies,srinu.reddy@srinu-precision-0323.example,+91-80-95291845,Active
+7135755111203712630,SUP-85AFFED4-0324,Ravi Precision Components Technologies,ravi.nair@ravi-precision-0324.example,+91-80-80973175,Active
+7148998051911677478,SUP-85AFFED4-0005,Maya Precision Components Pvt Ltd,maya.patel@maya-precision-0005.example,+91-80-26511678,Active
+7151927253912980094,SUP-85AFFED4-0461,Akshu Supply Solutions Technologies,akshu.sharma@akshu-supply-0461.example,+91-80-27885910,Active
+7210508002143727973,SUP-85AFFED4-0008,Vikram Precision Components Pvt Ltd,vikram.mehta@vikram-precision-0008.example,+91-80-51482084,Active
+7229150171926858315,SUP-85AFFED4-0317,Rahul Supply Solutions Industries,rahul.verma@rahul-supply-0317.example,+91-80-72219343,Active
+7230662388314338527,SUP-85AFFED4-0296,Divya Electrical Industries Industries,divya.pillai@divya-electrical-0296.example,+91-80-24759665,Active
+7257901754292154786,SUP-85AFFED4-0094,Meera Automation Products Pvt Ltd,meera.krishnan@meera-automation-0094.example,+91-80-24193960,Active
+7263174437297226980,SUP-85AFFED4-0071,Priya Advanced Materials Pvt Ltd,priya.shah@priya-advanced-0071.example,+91-80-29989083,Active
+7302712662927776598,SUP-85AFFED4-0439,Nikhil Manufacturing Group Technologies,nikhil.bhat@nikhil-manufacturing-0439.example,+91-80-72740906,Active
+7313932103841598741,SUP-85AFFED4-0454,Meera Electrical Industries Technologies,meera.krishnan@meera-electrical-0454.example,+91-80-80895374,Active
+7335693860312388309,SUP-85AFFED4-0242,Rekha Automation Products Industries,rekha.iyer@rekha-automation-0242.example,+91-80-27360195,Active
+7358341532882160031,SUP-85AFFED4-0055,Aarav Engineering Works Pvt Ltd,aarav.singh@aarav-engineering-0055.example,+91-80-47916134,Active
+7364942730684732378,SUP-85AFFED4-0310,Arjun Supply Solutions Industries,arjun.menon@arjun-supply-0310.example,+91-80-59615410,Active
+7383454050584102552,SUP-85AFFED4-0409,Neha Automation Products Technologies,neha.kapoor@neha-automation-0409.example,+91-80-39193848,Active
+7390959768799554164,SUP-85AFFED4-0266,Kiran Manufacturing Group Industries,kiran.rao@kiran-manufacturing-0266.example,+91-80-46880570,Active
+7392990770489445222,SUP-85AFFED4-0292,Devika Electrical Industries Industries,devika.joshi@devika-electrical-0292.example,+91-80-20630378,Active
+7408907987810151743,SUP-85AFFED4-0276,Divya Manufacturing Group Industries,divya.pillai@divya-manufacturing-0276.example,+91-80-46254057,Active
+7435418757669839810,SUP-85AFFED4-0416,Divya Automation Products Technologies,divya.pillai@divya-automation-0416.example,+91-80-44698526,Active
+7456769778339514716,SUP-85AFFED4-0174,Meera Precision Components Industries,meera.krishnan@meera-precision-0174.example,+91-80-47095769,Active
+7457697760260177505,SUP-85AFFED4-0332,Devika Precision Components Technologies,devika.joshi@devika-precision-0332.example,+91-80-64585271,Active
+7483249367872772750,SUP-85AFFED4-0458,Sahana Electrical Industries Technologies,sahana.gowda@sahana-electrical-0458.example,+91-80-65235588,Active
+7500381258919692290,SUP-85AFFED4-0419,Nikhil Automation Products Technologies,nikhil.bhat@nikhil-automation-0419.example,+91-80-40636157,Active
+7593001062283844250,SUP-85AFFED4-0436,Divya Manufacturing Group Technologies,divya.pillai@divya-manufacturing-0436.example,+91-80-48665887,Active
+7599074521822507221,SUP-85AFFED4-0494,Meera Precision Components Manufacturing,meera.krishnan@meera-precision-0494.example,+91-80-71977457,Active
+7648370159199031315,SUP-85AFFED4-0096,Divya Automation Products Pvt Ltd,divya.pillai@divya-automation-0096.example,+91-80-98060439,Active
+7671588213284817745,SUP-85AFFED4-0343,Srinu Industrial Systems Technologies,srinu.reddy@srinu-industrial-0343.example,+91-80-65969895,Active
+7681239907526514697,SUP-85AFFED4-0474,Meera Supply Solutions Technologies,meera.krishnan@meera-supply-0474.example,+91-80-38426536,Active
+7697014301066629821,SUP-85AFFED4-0262,Rekha Manufacturing Group Industries,rekha.iyer@rekha-manufacturing-0262.example,+91-80-46957882,Active
+7716637453912033601,SUP-85AFFED4-0267,Ananya Manufacturing Group Industries,ananya.das@ananya-manufacturing-0267.example,+91-80-36413864,Active
+7718701458085896276,SUP-85AFFED4-0240,Aditi Advanced Materials Industries,aditi.kulkarni@aditi-advanced-0240.example,+91-80-66873609,Active
+7730346451507653537,SUP-85AFFED4-0272,Devika Manufacturing Group Industries,devika.joshi@devika-manufacturing-0272.example,+91-80-84484540,Active
+7733153256873806796,SUP-85AFFED4-0051,Priya Engineering Works Pvt Ltd,priya.shah@priya-engineering-0051.example,+91-80-26148723,Active
+7753677066928119640,SUP-85AFFED4-0025,Maya Industrial Systems Pvt Ltd,maya.patel@maya-industrial-0025.example,+91-80-99042905,Active
+7816744821487447886,SUP-85AFFED4-0118,Sahana Manufacturing Group Pvt Ltd,sahana.gowda@sahana-manufacturing-0118.example,+91-80-89064081,Active
+7850744367663822579,SUP-85AFFED4-0232,Devika Advanced Materials Industries,devika.joshi@devika-advanced-0232.example,+91-80-41770434,Active
+7880673055571150460,SUP-85AFFED4-0123,Srinu Electrical Industries Pvt Ltd,srinu.reddy@srinu-electrical-0123.example,+91-80-68001854,Active
+7901895387864164012,SUP-85AFFED4-0249,Neha Automation Products Industries,neha.kapoor@neha-automation-0249.example,+91-80-58219716,Active
+7914696758377512334,SUP-85AFFED4-0463,Srinu Supply Solutions Technologies,srinu.reddy@srinu-supply-0463.example,+91-80-32085476,Active
+7921062378019702720,SUP-85AFFED4-0132,Devika Electrical Industries Pvt Ltd,devika.joshi@devika-electrical-0132.example,+91-80-40420410,Active
+7923892225117772701,SUP-85AFFED4-0097,Rahul Automation Products Pvt Ltd,rahul.verma@rahul-automation-0097.example,+91-80-99211744,Active
+7954545188491140029,SUP-85AFFED4-0228,Vikram Advanced Materials Industries,vikram.mehta@vikram-advanced-0228.example,+91-80-50979379,Active
+7980772753831097024,SUP-85AFFED4-0024,Ravi Industrial Systems Pvt Ltd,ravi.nair@ravi-industrial-0024.example,+91-80-20683717,Active
+7993462599358846413,SUP-85AFFED4-0282,Rekha Electrical Industries Industries,rekha.iyer@rekha-electrical-0282.example,+91-80-36178169,Active
+7997059452742280758,SUP-85AFFED4-0179,Nikhil Precision Components Industries,nikhil.bhat@nikhil-precision-0179.example,+91-80-83486009,Active
+8019489262812676317,SUP-85AFFED4-0466,Kiran Supply Solutions Technologies,kiran.rao@kiran-supply-0466.example,+91-80-54912258,Active
+8080643173969581388,SUP-85AFFED4-0171,Priya Precision Components Industries,priya.shah@priya-precision-0171.example,+91-80-40557461,Active
+8101471091832446808,SUP-85AFFED4-0134,Meera Electrical Industries Pvt Ltd,meera.krishnan@meera-electrical-0134.example,+91-80-25133511,Active
+8121130764247481198,SUP-85AFFED4-0080,Aditi Advanced Materials Pvt Ltd,aditi.kulkarni@aditi-advanced-0080.example,+91-80-24864047,Active
+8135276617929830283,SUP-85AFFED4-0066,Kiran Advanced Materials Pvt Ltd,kiran.rao@kiran-advanced-0066.example,+91-80-72300559,Active
+8144770844160729733,SUP-85AFFED4-0273,Sanjay Manufacturing Group Industries,sanjay.kumar@sanjay-manufacturing-0273.example,+91-80-66797469,Active
+8162680566592581074,SUP-85AFFED4-0207,Ananya Engineering Works Industries,ananya.das@ananya-engineering-0207.example,+91-80-50029614,Active
+8169515978539626840,SUP-85AFFED4-0428,Vikram Manufacturing Group Technologies,vikram.mehta@vikram-manufacturing-0428.example,+91-80-26498460,Active
+8171393313883288590,SUP-85AFFED4-0325,Maya Precision Components Technologies,maya.patel@maya-precision-0325.example,+91-80-60187561,Active
+8181653325987380692,SUP-85AFFED4-0411,Priya Automation Products Technologies,priya.shah@priya-automation-0411.example,+91-80-43942613,Active
+8214237038348709097,SUP-85AFFED4-0426,Kiran Manufacturing Group Technologies,kiran.rao@kiran-manufacturing-0426.example,+91-80-41304260,Active
+8221678215530084866,SUP-85AFFED4-0308,Vikram Supply Solutions Industries,vikram.mehta@vikram-supply-0308.example,+91-80-33797253,Active
+8304859112827119986,SUP-85AFFED4-0277,Rahul Manufacturing Group Industries,rahul.verma@rahul-manufacturing-0277.example,+91-80-53682753,Active
+8306898476733429231,SUP-85AFFED4-0359,Nikhil Industrial Systems Technologies,nikhil.bhat@nikhil-industrial-0359.example,+91-80-36156922,Active
+8345105290891439988,SUP-85AFFED4-0345,Maya Industrial Systems Technologies,maya.patel@maya-industrial-0345.example,+91-80-24954941,Active
+8349236962236642713,SUP-85AFFED4-0321,Akshu Precision Components Technologies,akshu.sharma@akshu-precision-0321.example,+91-80-67481572,Active
+8355933853199696536,SUP-85AFFED4-0045,Maya Engineering Works Pvt Ltd,maya.patel@maya-engineering-0045.example,+91-80-43848730,Active
+8369577147139124570,SUP-85AFFED4-0007,Ananya Precision Components Pvt Ltd,ananya.das@ananya-precision-0007.example,+91-80-50930102,Active
+8370314398159933205,SUP-85AFFED4-0218,Sahana Engineering Works Industries,sahana.gowda@sahana-engineering-0218.example,+91-80-88071438,Active
+8391959881081370424,SUP-85AFFED4-0486,Kiran Precision Components Manufacturing,kiran.rao@kiran-precision-0486.example,+91-80-65419776,Active
+8403482834415405197,SUP-85AFFED4-0437,Rahul Manufacturing Group Technologies,rahul.verma@rahul-manufacturing-0437.example,+91-80-73523328,Active
+8427666919647861687,SUP-85AFFED4-0291,Priya Electrical Industries Industries,priya.shah@priya-electrical-0291.example,+91-80-57719914,Active
+8446414787230902203,SUP-85AFFED4-0303,Srinu Supply Solutions Industries,srinu.reddy@srinu-supply-0303.example,+91-80-39430432,Active
+8457864948514705027,SUP-85AFFED4-0455,Aarav Electrical Industries Technologies,aarav.singh@aarav-electrical-0455.example,+91-80-47039376,Active
+8481138636587488252,SUP-85AFFED4-0049,Neha Engineering Works Pvt Ltd,neha.kapoor@neha-engineering-0049.example,+91-80-77210274,Active
+8523431508398656032,SUP-85AFFED4-0149,Neha Supply Solutions Pvt Ltd,neha.kapoor@neha-supply-0149.example,+91-80-96061921,Active
+8541074565256760960,SUP-85AFFED4-0121,Akshu Electrical Industries Pvt Ltd,akshu.sharma@akshu-electrical-0121.example,+91-80-96430049,Active
+8541857871794803219,SUP-85AFFED4-0067,Ananya Advanced Materials Pvt Ltd,ananya.das@ananya-advanced-0067.example,+91-80-49523673,Active
+8572762950792953874,SUP-85AFFED4-0064,Ravi Advanced Materials Pvt Ltd,ravi.nair@ravi-advanced-0064.example,+91-80-33523454,Active
+8616701525015146478,SUP-85AFFED4-0200,Aditi Industrial Systems Industries,aditi.kulkarni@aditi-industrial-0200.example,+91-80-84219824,Active
+8625520356219938434,SUP-85AFFED4-0196,Divya Industrial Systems Industries,divya.pillai@divya-industrial-0196.example,+91-80-36920148,Active
+8637606072469292773,SUP-85AFFED4-0001,Akshu Precision Components Pvt Ltd,akshu.sharma@akshu-precision-0001.example,+91-80-67326714,Active
+8641522048382691378,SUP-85AFFED4-0295,Aarav Electrical Industries Industries,aarav.singh@aarav-electrical-0295.example,+91-80-56114448,Active
+8650802352947594343,SUP-85AFFED4-0090,Arjun Automation Products Pvt Ltd,arjun.menon@arjun-automation-0090.example,+91-80-61359083,Active
+8661921516690913825,SUP-85AFFED4-0133,Sanjay Electrical Industries Pvt Ltd,sanjay.kumar@sanjay-electrical-0133.example,+91-80-21115583,Active
+8663588423127304210,SUP-85AFFED4-0355,Aarav Industrial Systems Technologies,aarav.singh@aarav-industrial-0355.example,+91-80-32527839,Active
+8669904369027026294,SUP-85AFFED4-0209,Neha Engineering Works Industries,neha.kapoor@neha-engineering-0209.example,+91-80-38709122,Active
+8673207439276506037,SUP-85AFFED4-0354,Meera Industrial Systems Technologies,meera.krishnan@meera-industrial-0354.example,+91-80-73466585,Active
+8696148733650949012,SUP-85AFFED4-0336,Divya Precision Components Technologies,divya.pillai@divya-precision-0336.example,+91-80-33772618,Active
+8719586049289707949,SUP-85AFFED4-0027,Ananya Industrial Systems Pvt Ltd,ananya.das@ananya-industrial-0027.example,+91-80-69332952,Active
+8738775955930951376,SUP-85AFFED4-0372,Devika Engineering Works Technologies,devika.joshi@devika-engineering-0372.example,+91-80-42750883,Active
+8746982478657541839,SUP-85AFFED4-0002,Rekha Precision Components Pvt Ltd,rekha.iyer@rekha-precision-0002.example,+91-80-97750540,Active
+8758130907477001221,SUP-85AFFED4-0469,Neha Supply Solutions Technologies,neha.kapoor@neha-supply-0469.example,+91-80-97822624,Active
+8762520324849681453,SUP-85AFFED4-0108,Vikram Manufacturing Group Pvt Ltd,vikram.mehta@vikram-manufacturing-0108.example,+91-80-65549191,Active
+8771154397629016974,SUP-85AFFED4-0329,Neha Precision Components Technologies,neha.kapoor@neha-precision-0329.example,+91-80-70264072,Active
+8803771633872638315,SUP-85AFFED4-0483,Srinu Precision Components Manufacturing,srinu.reddy@srinu-precision-0483.example,+91-80-62603244,Active
+8806054998257102769,SUP-85AFFED4-0365,Maya Engineering Works Technologies,maya.patel@maya-engineering-0365.example,+91-80-87166167,Active
+8819542618572724514,SUP-85AFFED4-0010,Arjun Precision Components Pvt Ltd,arjun.menon@arjun-precision-0010.example,+91-80-93389073,Active
+8829764124407016155,SUP-85AFFED4-0441,Akshu Electrical Industries Technologies,akshu.sharma@akshu-electrical-0441.example,+91-80-51539649,Active
+8913817969117712824,SUP-85AFFED4-0480,Aditi Supply Solutions Technologies,aditi.kulkarni@aditi-supply-0480.example,+91-80-84386919,Active
+8915043924137231042,SUP-85AFFED4-0328,Vikram Precision Components Technologies,vikram.mehta@vikram-precision-0328.example,+91-80-67534756,Active
+8921461355862242994,SUP-85AFFED4-0043,Srinu Engineering Works Pvt Ltd,srinu.reddy@srinu-engineering-0043.example,+91-80-64803657,Active
+8936785824582410120,SUP-85AFFED4-0260,Aditi Automation Products Industries,aditi.kulkarni@aditi-automation-0260.example,+91-80-62689924,Active
+8951733814218377266,SUP-85AFFED4-0407,Ananya Automation Products Technologies,ananya.das@ananya-automation-0407.example,+91-80-99016921,Active
+8963351467446368834,SUP-85AFFED4-0131,Priya Electrical Industries Pvt Ltd,priya.shah@priya-electrical-0131.example,+91-80-80586606,Active
+8963717360080268853,SUP-85AFFED4-0250,Arjun Automation Products Industries,arjun.menon@arjun-automation-0250.example,+91-80-67989853,Active
+8995516313128377122,SUP-85AFFED4-0492,Devika Precision Components Manufacturing,devika.joshi@devika-precision-0492.example,+91-80-45590331,Active
+9001761753565497871,SUP-85AFFED4-0047,Ananya Engineering Works Pvt Ltd,ananya.das@ananya-engineering-0047.example,+91-80-75889183,Active
+9013652898760521570,SUP-85AFFED4-0236,Divya Advanced Materials Industries,divya.pillai@divya-advanced-0236.example,+91-80-43989305,Active
+9014411742923636624,SUP-85AFFED4-0219,Nikhil Engineering Works Industries,nikhil.bhat@nikhil-engineering-0219.example,+91-80-96681726,Active
+9035359776761025380,SUP-85AFFED4-0274,Meera Manufacturing Group Industries,meera.krishnan@meera-manufacturing-0274.example,+91-80-37448258,Active
+9054115278235514216,SUP-85AFFED4-0089,Neha Automation Products Pvt Ltd,neha.kapoor@neha-automation-0089.example,+91-80-25683401,Active
+9079335967277521863,SUP-85AFFED4-0150,Arjun Supply Solutions Pvt Ltd,arjun.menon@arjun-supply-0150.example,+91-80-22386318,Active
+9095275842168112380,SUP-85AFFED4-0456,Divya Electrical Industries Technologies,divya.pillai@divya-electrical-0456.example,+91-80-62579455,Active
+9104345734141860733,SUP-85AFFED4-0434,Meera Manufacturing Group Technologies,meera.krishnan@meera-manufacturing-0434.example,+91-80-24409326,Active
+9111308700343334111,SUP-85AFFED4-0180,Aditi Precision Components Industries,aditi.kulkarni@aditi-precision-0180.example,+91-80-51862712,Active
+9117981913510803793,SUP-85AFFED4-0035,Aarav Industrial Systems Pvt Ltd,aarav.singh@aarav-industrial-0035.example,+91-80-39722064,Active
+9145135714502622739,SUP-85AFFED4-0442,Rekha Electrical Industries Technologies,rekha.iyer@rekha-electrical-0442.example,+91-80-94692687,Active
+9150092809622970968,SUP-85AFFED4-0491,Priya Precision Components Manufacturing,priya.shah@priya-precision-0491.example,+91-80-50229123,Active
+9157543202496631277,SUP-85AFFED4-0087,Ananya Automation Products Pvt Ltd,ananya.das@ananya-automation-0087.example,+91-80-89396998,Active
+9161454660447527758,SUP-85AFFED4-0088,Vikram Automation Products Pvt Ltd,vikram.mehta@vikram-automation-0088.example,+91-80-69622442,Active
+9177086131462861982,SUP-85AFFED4-0358,Sahana Industrial Systems Technologies,sahana.gowda@sahana-industrial-0358.example,+91-80-42002078,Active
+9187270925680560649,SUP-85AFFED4-0384,Ravi Advanced Materials Technologies,ravi.nair@ravi-advanced-0384.example,+91-80-54359236,Active
+9198962316137105280,SUP-85AFFED4-0389,Neha Advanced Materials Technologies,neha.kapoor@neha-advanced-0389.example,+91-80-41185849,Active
+9204859138460679326,SUP-85AFFED4-0352,Devika Industrial Systems Technologies,devika.joshi@devika-industrial-0352.example,+91-80-27669157,Active
+9223181518231021863,SUP-85AFFED4-0143,Srinu Supply Solutions Pvt Ltd,srinu.reddy@srinu-supply-0143.example,+91-80-77967058,Active

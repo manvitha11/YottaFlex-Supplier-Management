@@ -1,0 +1,300 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Module 8 - Data Generator</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6fb;
+            margin: 0;
+            padding: 30px;
+            color: #263247;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .back-button {
+            background: #263b80;
+            color: white;
+            text-decoration: none;
+            padding: 11px 18px;
+            border-radius: 7px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            margin-top: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+        }
+
+        label {
+            display: block;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-top: 8px;
+            border: 1px solid #d6dce7;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        button {
+            margin-top: 25px;
+            padding: 13px 22px;
+            border: none;
+            background: #263b80;
+            color: white;
+            border-radius: 7px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background: #192b65;
+        }
+
+        .info {
+            background: #eef3ff;
+            padding: 18px;
+            border-radius: 8px;
+            margin-top: 20px;
+            line-height: 1.7;
+        }
+
+        .flash {
+            background: #e4f7eb;
+            color: #176b38;
+            padding: 13px;
+            border-radius: 7px;
+            margin-top: 15px;
+        }
+
+        .error {
+            background: #fde8e8;
+            color: #9b1c1c;
+            padding: 13px;
+            border-radius: 7px;
+            margin-top: 15px;
+        }
+
+        .files {
+            margin-top: 20px;
+            line-height: 2;
+        }
+
+        .summary-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 18px;
+        }
+
+        .summary-table th,
+        .summary-table td {
+            text-align: left;
+            padding: 10px;
+            border-bottom: 1px solid #e3e7ef;
+        }
+
+        .summary-table th {
+            background: #f5f7fb;
+        }
+    </style>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}"></head>
+
+<body><aside class="yf-sidebar"><div class="yf-brand"><div class="yf-logo">Y</div><div><strong>YottaFlex</strong><small>Supply operations</small></div></div><div class="yf-nav-label">Workspace</div><nav class="yf-nav">
+<a href="/" data-path="/"><span>▦</span>Overview</a><a href="/suppliers" data-path="/suppliers"><span>♙</span>Suppliers</a><a href="/purchase-orders" data-path="/purchase-orders"><span>▤</span>Purchase orders</a><a href="/acknowledgements" data-path="/acknowledgements"><span>✓</span>Acknowledgements</a><a href="/change-requests" data-path="/change-requests"><span>⇄</span>Change requests</a><a href="/inventory-planning" data-path="/inventory-planning"><span>▥</span>Inventory planning</a><a href="/anomaly-detection" data-path="/anomaly-detection"><span>⌁</span>Anomaly detection</a><a href="/data-generator" data-path="/data-generator"><span>⚙</span>Data generator</a><a href="/notifications" data-path="/notifications"><span>♧</span>Notifications</a><a href="/audit-history" data-path="/audit-history"><span>≡</span>Audit history</a></nav><div class="yf-sidebar-foot"><b>YottaFlex Operations</b>Supplier acknowledgement &amp; planning platform</div></aside><main class="yf-main"><div class="yf-topbar"><div><div class="yf-eyebrow">Supplier management platform</div><div class="yf-page-title">Operations workspace</div><div class="yf-subtitle">A single view of supplier commitments and supply execution</div></div><div class="yf-top-right"><span class="yf-live">System workspace</span><div class="yf-avatar">Y</div></div></div>
+
+<div class="container">
+
+    <div class="header">
+        <div>
+            <h1>Module 8: Data Generator</h1>
+            <p>Dataset export and ground truth management</p>
+        </div>
+
+        <a href="/" class="back-button">Back to Dashboard</a>
+    </div>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% for category, message in messages %}
+            <div class="flash">{{ message }}</div>
+        {% endfor %}
+    {% endwith %}
+
+    {% if generation_error %}
+        <div class="error" role="alert">
+            <strong>Generation failed:</strong> {{ generation_error }}
+        </div>
+    {% endif %}
+
+    {% if generation_result %}
+        <div class="flash" role="status">
+            {% if generation_result.created %}
+                Synthetic dataset was generated, validated, saved, and exported.
+            {% else %}
+                This seed and configuration already exist; no duplicate records were added.
+            {% endif %}
+            Batch: {{ generation_result.batch_id }}
+        </div>
+
+        <div class="card">
+            <h2>Generation Summary</h2>
+            <p>
+                Seed {{ generation_result.summary.seed }};
+                {{ generation_result.summary.purchase_order_count }} purchase orders;
+                {{ generation_result.summary.event_count }} acknowledgement/change events.
+            </p>
+
+            <table class="summary-table">
+                <thead>
+                    <tr><th>Generated record type</th><th>Count</th></tr>
+                </thead>
+                <tbody>
+                    {% for name, count in generation_result.summary.generated_counts.items() %}
+                        <tr>
+                            <td>{{ name.replace("_", " ")|title }}</td>
+                            <td>{{ count }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+            <h3>Validation</h3>
+            <p>
+                {% if generation_result.summary.validation.passed %}
+                    Passed
+                {% else %}
+                    Failed
+                {% endif %}
+                — {{ generation_result.summary.validation.record_count }} records checked.
+            </p>
+            <ul>
+                {% for name, passed in generation_result.summary.validation.checks.items() %}
+                    <li>{{ name.replace("_", " ")|title }}: {{ "Passed" if passed else "Failed" }}</li>
+                {% endfor %}
+            </ul>
+            {% if generation_result.summary.validation.errors %}
+                <h4>Validation errors</h4>
+                <ul>
+                    {% for error in generation_result.summary.validation.errors %}
+                        <li>{{ error }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+
+            <h3>Download generated exports</h3>
+            <ul class="files">
+                {% for filename in generation_result.files %}
+                    <li>
+                        <a href="{{ url_for('download_generated_export',
+                            batch_id=generation_result.batch_id,
+                            filename=filename) }}">{{ filename }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+
+    <div class="card">
+
+        <h2>Generate Synthetic Dataset</h2>
+
+        <p>
+            Generate additive supplier workflow records. The full assignment dataset
+            uses 10,000 purchase orders and at least 15,000 acknowledgement/change
+            events. Smaller values are available for isolated testing.
+        </p>
+
+        <form method="POST">
+
+            <label for="purchase_order_count">
+                Target Purchase Order Count
+            </label>
+
+            <input
+                type="number"
+                id="purchase_order_count"
+                name="purchase_order_count"
+                value="{{ form_values.purchase_order_count }}"
+                min="4"
+                max="10000"
+                required
+            >
+
+            <label for="event_count">
+                Combined Acknowledgement and Change Request Events
+            </label>
+
+            <input
+                type="number"
+                id="event_count"
+                name="event_count"
+                value="{{ form_values.event_count }}"
+                min="8"
+                max="100000"
+                required
+            >
+
+            <label for="seed">
+                Random Seed
+            </label>
+
+            <input
+                type="number"
+                id="seed"
+                name="seed"
+                value="{{ form_values.seed }}"
+                required
+            >
+
+            <button type="submit">
+                Generate, Validate, and Export
+            </button>
+
+        </form>
+
+        <div class="info">
+            <h3>Ground-truth scenarios</h3>
+            <p>
+                The generated business records include four labeled scenario
+                examples. Ground-truth labels are exported separately and are not
+                stored as business-record fields.
+            </p>
+            <p>
+                A generation is additive and idempotent for the same seed and
+                configuration. Repeating it does not add duplicate database rows.
+            </p>
+            <p>
+                Files are stored under the generated_data folder in a batch-specific
+                directory. SQL output is a seed script only; it is not executed.
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+</main><script>document.querySelectorAll(".yf-nav a").forEach(a=>{if(a.dataset.path===location.pathname)a.classList.add("active")});</script></body>
+</html>

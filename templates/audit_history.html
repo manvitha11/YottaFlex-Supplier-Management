@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audit History</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 30px;
+            background: #f4f6f9;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background: #263b59;
+            color: white;
+        }
+    </style>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}"></head>
+<body><aside class="yf-sidebar"><div class="yf-brand"><div class="yf-logo">Y</div><div><strong>YottaFlex</strong><small>Supply operations</small></div></div><div class="yf-nav-label">Workspace</div><nav class="yf-nav">
+<a href="/" data-path="/"><span>▦</span>Overview</a><a href="/suppliers" data-path="/suppliers"><span>♙</span>Suppliers</a><a href="/purchase-orders" data-path="/purchase-orders"><span>▤</span>Purchase orders</a><a href="/acknowledgements" data-path="/acknowledgements"><span>✓</span>Acknowledgements</a><a href="/change-requests" data-path="/change-requests"><span>⇄</span>Change requests</a><a href="/inventory-planning" data-path="/inventory-planning"><span>▥</span>Inventory planning</a><a href="/anomaly-detection" data-path="/anomaly-detection"><span>⌁</span>Anomaly detection</a><a href="/data-generator" data-path="/data-generator"><span>⚙</span>Data generator</a><a href="/notifications" data-path="/notifications"><span>♧</span>Notifications</a><a href="/audit-history" data-path="/audit-history"><span>≡</span>Audit history</a></nav><div class="yf-sidebar-foot"><b>YottaFlex Operations</b>Supplier acknowledgement &amp; planning platform</div></aside><main class="yf-main"><div class="yf-topbar"><div><div class="yf-eyebrow">Supplier management platform</div><div class="yf-page-title">Operations workspace</div><div class="yf-subtitle">A single view of supplier commitments and supply execution</div></div><div class="yf-top-right"><span class="yf-live">System workspace</span><div class="yf-avatar">Y</div></div></div>
+
+<h1>Audit History</h1>
+
+<a href="/">Dashboard</a> |
+<a href="/notifications">Notifications</a>
+
+<table>
+    <tr>
+        <th>Event ID</th>
+        <th>Entity</th>
+        <th>Entity ID</th>
+        <th>Action</th>
+        <th>Old Value</th>
+        <th>New Value</th>
+        <th>Performed By</th>
+        <th>Date</th>
+    </tr>
+
+    {% for event in events %}
+    <tr>
+        <td>{{ event.event_number }}</td>
+        <td>{{ event.entity_type }}</td>
+        <td>{{ event.entity_id }}</td>
+        <td>{{ event.action }}</td>
+        <td>{{ event.old_value or "-" }}</td>
+        <td>{{ event.new_value or "-" }}</td>
+        <td>{{ event.performed_by }}</td>
+        <td>{{ event.event_date }}</td>
+    </tr>
+    {% else %}
+    <tr>
+        <td colspan="8">No audit events available.</td>
+    </tr>
+    {% endfor %}
+</table>
+
+</main><script>document.querySelectorAll(".yf-nav a").forEach(a=>{if(a.dataset.path===location.pathname)a.classList.add("active")});</script></body>
+</html>

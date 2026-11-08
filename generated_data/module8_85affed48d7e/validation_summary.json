@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "acknowledgement_revisions_unique": true,
+    "dates_valid_except_labeled_scenario": true,
+    "foreign_keys_valid": true,
+    "ground_truth_scenarios_verified": true,
+    "inventory_projection_rules_checked": true,
+    "primary_keys_unique": true,
+    "quantities_reconcile": true,
+    "statuses_valid": true
+  },
+  "errors": [],
+  "passed": true,
+  "record_count": 50499
+}
